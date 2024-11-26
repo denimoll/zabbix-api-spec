@@ -35,11 +35,11 @@ if not os.path.exists(input_dir):
 for method in get_api_list(url):
     cls = method.split('.')[0]
     act = method.split('.')[1]
-    folder = "%s/%s_%s" % (input_dir, cls, act)
+    folder = "%s/%s/%s" % (input_dir, cls, act)
     if not os.path.exists(folder):
         os.makedirs(folder)
     path_to_api_doc = "%s/%s/%s" % (url, cls, act)
     for num, example in enumerate(get_api_example(path_to_api_doc)):
         filename = "%s/%s.json" % (folder, num)
-        with open(filename, 'w') as f:
+        with open(filename, 'w', encoding="utf-8") as f:
             f.write(example.text_content())
