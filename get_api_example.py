@@ -11,7 +11,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 def get_api_list(url):
     response = requests.get(url, verify=False)
     tree = html.fromstring(response.content)
-    api_list_from_tree = tree.xpath("/html/body/div[1]/div/div[2]/div[1]/div[1]/div/div/div[2]/div[32]/div[2]//a/text()")
+    api_list_from_tree = tree.xpath("/html/body/div[1]/div/div[3]/div[1]/div[1]/div/div/div[2]/div[32]/div[2]//a/text()")
     api_list = []
     for method in api_list_from_tree:
         if len(method.split('.')) != 1:
