@@ -3,6 +3,14 @@
     "method": "trigger.update",
     "params": {
         "triggerid": "13938",
+        "dependencies": [
+            {
+                "triggerid": "22712"
+            },
+            {
+                "triggerid": "22772"
+            }
+        ],
         "tags": [
             {
                 "tag": "service",
@@ -15,6 +23,6 @@
         ],
         "status": 0
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

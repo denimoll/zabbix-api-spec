@@ -17,7 +17,7 @@
                ],
                "tags": [
                    {
-                       "tag": "Datacenter",
+                       "tag": "datacenter",
                        "value": "{#DATACENTER.NAME}"
                    }
                ],
@@ -37,6 +37,5 @@
                    }
                ]
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

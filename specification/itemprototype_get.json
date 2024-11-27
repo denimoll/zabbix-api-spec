@@ -4,14 +4,14 @@
     "params": {
         "hostids": "10254",
         "filter": {
-            "type": "18",
-            "request_method": "3",
+            "type": 18,
+            "request_method": 3,
             "master_itemid": "25545"
         },
         "output": "extend",
         "limit": "1",
         "discoveryids": "27426"
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

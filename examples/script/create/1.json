@@ -5,6 +5,7 @@
                "name": "SSH script",
                "command": "my script command",
                "type": 2,
+               "authtype": 1,
                "username": "John",
                "publickey": "pub.key",
                "privatekey": "priv.key",
@@ -15,6 +16,5 @@
                "usrgrpid": "7",
                "groupid": "4"
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

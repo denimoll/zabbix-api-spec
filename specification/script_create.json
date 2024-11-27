@@ -3,10 +3,18 @@
     "method": "script.create",
     "params": {
         "name": "Webhook script",
-        "command": "try {\n var request = new HttpRequest(),\n response,\n data;\n\n request.addHeader('Content-Type: application/json');\n\n response = request.post('https://localhost/post', value);\n\n try {\n response = JSON.parse(response);\n }\n catch (error) {\n response = null;\n }\n\n if (request.getStatus() !== 200 || !('data' in response)) {\n throw 'Unexpected response.';\n }\n\n data = JSON.stringify(response.data);\n\n Zabbix.Log(3, '[Webhook Script] response data: ' + data);\n\n return data;\n}\ncatch (error) {\n Zabbix.Log(3, '[Webhook Script] script execution failed: ' + error);\n throw 'Execution failed: ' + error + '.';\n}",
-        "confirmation": "Are you sure you would like to reboot the server?",
-        "scope": 2,
         "type": 5,
+        "scope": 2,
+        "url": "http://zabbix/ui/zabbix.php?action=host.edit&hostid={HOST.ID}",
+        "new_window": 1,
+        "manualinput": 1,
+        "manualinput_prompt": "Which server you want to reboot?",
+        "manualinput_validator": "[1-9]",
+        "manualinput_validator_type": 1,
+        "confirmation": "Are you sure you would like to reboot the server {MANUALINPUT}?",
+        "command": "try {\n var request = new HttpRequest(),\n response,\n data;\n\n request.addHeader('Content-Type: application/json');\n\n response = request.post('https://localhost/post', value);\n\n try {\n response = JSON.parse(response);\n }\n catch (error) {\n response = null;\n }\n\n if (request.getStatus() !== 200 || !('data' in response)) {\n throw 'Unexpected response.';\n }\n\n data = JSON.stringify(response.data);\n\n Zabbix.log(3, '[Webhook Script] response data: ' + data);\n\n return data;\n}\ncatch (error) {\n Zabbix.log(3, '[Webhook Script] script execution failed: ' + error);\n throw 'Execution failed: ' + error + '.';\n}",
+        "manualinput_default_value": "1",
+        "authtype": 1,
         "username": "John",
         "publickey": "pub.key",
         "privatekey": "priv.key",
@@ -31,6 +39,6 @@
             }
         ]
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

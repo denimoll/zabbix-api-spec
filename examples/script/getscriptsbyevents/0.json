@@ -1,0 +1,13 @@
+{
+           "jsonrpc": "2.0",
+           "method": "script.getscriptsbyevents",
+           "params": [
+             {
+                "eventid":  "632"
+             },
+             {
+                "eventid":  "614"
+             }
+           ],
+           "id": 1
+       }

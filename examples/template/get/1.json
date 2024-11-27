@@ -2,10 +2,13 @@
            "jsonrpc": "2.0",
            "method": "template.get",
            "params": {
-               "output": "templateid",
-               "templateids": "10001",
-               "selectHosts": ["hostid", "name"]
+               "output": ["hostid"],
+               "selectTemplateGroups": "extend",
+               "filter": {
+                   "host": [
+                       "Linux by Zabbix agent"
+                   ]
+               }
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

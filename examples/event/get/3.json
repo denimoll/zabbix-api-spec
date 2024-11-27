@@ -1,0 +1,18 @@
+{
+           "jsonrpc": "2.0",
+           "method": "event.get",
+           "params": {
+               "countOutput": true,
+               "groupBy": "objectid",
+               "source": 0,
+               "object": 0,
+               "value": 1,
+               "time_from": 1672531200,
+               "time_till": 1677628800,
+               "trigger_severities": [2, 3, 4, 5],
+               "sortfield": ["rowscount"],
+               "sortorder": "DESC",
+               "limit": 5
+           },
+           "id": 1
+       }

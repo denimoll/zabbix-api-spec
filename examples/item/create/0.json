@@ -10,15 +10,15 @@
                "interfaceid": "30084",
                "tags": [
                    {
-                       "tag": "Disk usage"
+                       "tag": "component",
+                       "value": "storage"
                    },
                    {
-                       "tag": "Equipment",
-                       "value": "Workstation"
+                       "tag": "equipment",
+                       "value": "workstation"
                    }
                ],
                "delay": "30s"
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

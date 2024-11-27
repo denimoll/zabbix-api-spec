@@ -1,0 +1,14 @@
+{
+           "jsonrpc": "2.0",
+           "method": "script.update",
+           "params": {
+             "scriptid": "1",
+             "command": "/bin/ping -c {MANUALINPUT} {HOST.CONN} 2>&1",
+             "manualinput": "1",
+             "manualinput_prompt": "Specify the number of ICMP packets to send with the ping command",
+             "manualinput_validator": "^(?:[1-9]|10)$",
+             "manualinput_validator_type": "0",
+             "manualinput_default_value": "10"
+           },
+           "id": 1
+       }

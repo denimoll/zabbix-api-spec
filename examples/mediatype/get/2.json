@@ -1,0 +1,11 @@
+{
+           "jsonrpc": "2.0",
+           "method": "mediatype.get",
+           "params": {
+               "output": ["mediatypeid", "name", "parameters"],
+               "filter": {
+                   "type": [1, 4]
+               }
+           },
+           "id": 1
+       }

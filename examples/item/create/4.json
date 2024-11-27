@@ -2,16 +2,19 @@
            "jsonrpc": "2.0",
            "method": "item.create",
            "params": {
-               "url": "http://127.0.0.1/http.php",
+               "url":"http://127.0.0.1/http.php",
                "query_fields": [
                    {
-                       "mode": "json"
+                       "name": "mode",
+                       "value": "json"
                    },
                    {
-                       "min": "10"
+                       "name": "min",
+                       "value": "10"
                    },
                    {
-                       "max": "100"
+                       "name": "max",
+                       "value": "100"
                    }
                ],
                "interfaceid": "1",
@@ -31,6 +34,5 @@
                    }
                ]
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
-           "id": 2
+           "id": 1
        }

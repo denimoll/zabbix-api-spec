@@ -1,0 +1,13 @@
+{
+           "jsonrpc": "2.0",
+           "method": "script.create",
+           "params": {
+               "name": "URL script",
+               "type": 6,
+               "scope": 2,
+               "url": "http://zabbix/ui/zabbix.php?action=host.edit&hostid={HOST.ID}",
+               "confirmation": "Edit host {HOST.NAME}?",
+               "new_window": 0
+           },
+           "id": 1
+       }

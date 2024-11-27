@@ -1,0 +1,14 @@
+{
+           "jsonrpc": "2.0",
+           "method": "discoveryrule.create",
+           "params": {
+               "name": "lld disable after 1h",
+               "key_": "lld.disable",
+               "hostid": "10001",
+               "type": 2,
+               "lifetime_type": 1,
+               "enabled_lifetime_type": 0, 
+               "enabled_lifetime": "1h"
+           },
+           "id": 1
+       }

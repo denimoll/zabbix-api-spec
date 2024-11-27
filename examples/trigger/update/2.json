@@ -1,0 +1,16 @@
+{
+           "jsonrpc": "2.0",
+           "method": "trigger.update",
+           "params": {
+               "triggerid": "22713",
+               "dependencies": [
+                   {
+                       "triggerid": "22712"
+                   },
+                   {
+                       "triggerid": "22772"
+                   }
+               ]
+           },
+           "id": 1
+       }

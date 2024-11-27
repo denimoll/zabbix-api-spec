@@ -1,0 +1,16 @@
+{
+           "jsonrpc": "2.0",
+           "method": "userdirectory.test",
+           "params": {
+               "userdirectoryid": "3",
+               "host": "127.0.0.1",
+               "port": "389",
+               "base_dn": "ou=Users,dc=example,dc=org",
+               "search_attribute": "uid",
+               "bind_dn": "cn=ldap_search,dc=example,dc=org",
+               "bind_password": "password",
+               "test_username": "user1",
+               "test_password": "password"
+           },
+           "id": 1
+       }

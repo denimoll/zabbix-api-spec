@@ -3,9 +3,9 @@
     "method": "usergroup.create",
     "params": {
         "name": "Operation managers",
-        "rights": {
-            "permission": 0,
-            "id": "2"
+        "hostgroup_rights": {
+            "id": "2",
+            "permission": 0
         },
         "users": [
             {
@@ -13,6 +13,5 @@
             }
         ]
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
     "id": 1
 }

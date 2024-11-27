@@ -1,0 +1,13 @@
+{
+    "jsonrpc": "2.0",
+    "method": "module.get",
+    "params": {
+        "output": "extend",
+        "moduleids": [
+            "1",
+            "2",
+            "25"
+        ]
+    },
+    "id": 1
+}

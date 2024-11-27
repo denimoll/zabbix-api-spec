@@ -3,8 +3,12 @@
     "method": "discoveryrule.update",
     "params": {
         "itemid": "22450",
+        "lifetime_type": 0,
+        "lifetime": "7d",
+        "enabled_lifetime_type": 0,
+        "enabled_lifetime": "12h",
         "parameters": [],
-        "script": "Zabbix.Log(3, 'Log test');\nreturn 1;",
+        "script": "Zabbix.log(3, 'Log test');\nreturn 1;",
         "preprocessing": [
             {
                 "type": 12,
@@ -30,6 +34,6 @@
             ]
         }
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

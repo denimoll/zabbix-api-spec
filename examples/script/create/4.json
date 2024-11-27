@@ -1,0 +1,16 @@
+{
+           "jsonrpc": "2.0",
+           "method": "script.create",
+           "params": {
+               "name": "URL script with manual input",
+               "type": 6,
+               "scope": 4,
+               "url": "http://zabbix/ui/zabbix.php?action={MANUALINPUT}",
+               "new_window": 1,
+               "manualinput": 1,
+               "manualinput_prompt": "Select a page to open:",
+               "manualinput_validator": "dashboard.view,script.list,actionlog.list",
+               "manualinput_validator_type": 1
+           },
+           "id": 1
+       }

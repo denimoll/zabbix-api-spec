@@ -1,0 +1,15 @@
+{
+           "jsonrpc": "2.0",
+           "method": "userdirectory.test",
+           "params": {
+               "userdirectoryid": "2",
+               "host": "host.example.com",
+               "port": "389",
+               "base_dn": "DC=zbx,DC=local",
+               "search_attribute": "sAMAccountName",
+               "bind_dn": "CN=Admin,OU=Users,OU=Zabbix,DC=zbx,DC=local",
+               "test_username": "user3",
+               "test_password": "password"
+           },
+           "id": 1
+       }

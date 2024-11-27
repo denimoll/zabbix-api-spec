@@ -4,7 +4,7 @@
     "params": {
         "itemid": "10092",
         "parameters": [],
-        "script": "Zabbix.Log(3, 'Log test');\nreturn 1;",
+        "script": "Zabbix.log(3, 'Log test');\nreturn 1;",
         "preprocessing": [
             {
                 "type": 13,
@@ -18,6 +18,6 @@
         "master_itemid": "25562",
         "status": 0
     },
-    "auth": "700ca65537074ec963db7efabda78259",
+    "auth": null,
     "id": 1
 }

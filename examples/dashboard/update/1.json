@@ -15,7 +15,7 @@
                                "type": "clock",
                                "x": 0,
                                "y": 0,
-                               "width": 4,
+                               "width": 12,
                                "height": 3
                            }
                        ]
@@ -25,6 +25,5 @@
                    }
                ]
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

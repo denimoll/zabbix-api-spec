@@ -4,11 +4,15 @@
     "params": {
         "output": "extend",
         "filter": {
+            "type": [
+                1,
+                4
+            ],
             "status": 0
         },
         "selectUsers": "extend",
         "selectMessageTemplates": "extend"
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

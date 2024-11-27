@@ -1,0 +1,12 @@
+{
+           "jsonrpc": "2.0",
+           "method": "script.getscriptsbyevents",
+           "params": [
+             {
+               "eventid":  "632",
+               "scriptid": "4",
+               "manualinput": "dashboard.view"
+             }
+         ],
+           "id": 1
+       }

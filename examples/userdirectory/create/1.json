@@ -1,0 +1,56 @@
+{
+           "jsonrpc": "2.0",
+           "method": "userdirectory.create",
+           "params": {
+                   "idp_type": "1",
+                   "name": "AD server",
+                   "provision_status": "1",
+                   "description": "",
+                   "host": "host.example.com",
+                   "port": "389",
+                   "base_dn": "DC=zbx,DC=local",
+                   "search_attribute": "sAMAccountName",
+                   "bind_dn": "CN=Admin,OU=Users,OU=Zabbix,DC=zbx,DC=local",
+                   "start_tls": "0",
+                   "search_filter": "",
+                   "group_basedn": "OU=Zabbix,DC=zbx,DC=local",
+                   "group_name": "CN",
+                   "group_member": "member",
+                   "group_filter": "(%{groupattr}=CN=%{ref},OU=Users,OU=Zabbix,DC=zbx,DC=local)",
+                   "group_membership": "",
+                   "user_username": "givenName",
+                   "user_lastname": "sn",
+                   "user_ref_attr": "CN",
+                   "provision_media": [
+                       {
+                           "name": "example.com",
+                           "mediatypeid": "1",
+                           "attribute": "[email protected]"
+                       }
+                   ],
+                   "provision_groups": [
+                       {
+                           "name": "*",
+                           "roleid": "4",
+                           "user_groups": [
+                               {
+                                   "usrgrpid": "8"
+                               }
+                           ]
+                       },
+                       {
+                           "name": "Zabbix administrators",
+                           "roleid": "2",
+                           "user_groups": [
+                               {
+                                   "usrgrpid": "7"
+                               },
+                               {
+                                   "usrgrpid": "8"
+                               }
+                           ]
+                       }
+                   ]
+               },
+           "id": 1
+       }

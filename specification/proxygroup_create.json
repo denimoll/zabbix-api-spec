@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "proxygroup.create",
+    "params": {
+        "name": "Proxy group",
+        "failover_delay": "5m",
+        "min_online": "10"
+    },
+    "id": 1
+}

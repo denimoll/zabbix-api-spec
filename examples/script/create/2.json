@@ -3,11 +3,15 @@
            "method": "script.create",
            "params": {
                "name": "Reboot server",
-               "command": "reboot server 1",
-               "confirmation": "Are you sure you would like to reboot the server?",
+               "command": "reboot server {MANUALINPUT}",
+               "type": 0,
                "scope": 2,
-               "type": 0
+               "confirmation": "Are you sure you would like to reboot the server {MANUALINPUT}?",
+               "manualinput": 1,
+               "manualinput_prompt": "Which server you want to reboot?",
+               "manualinput_validator": "[1-9]",
+               "manualinput_validator_type": 0,
+               "manualinput_default_value": "1"
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

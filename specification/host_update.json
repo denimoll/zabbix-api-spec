@@ -2,19 +2,7 @@
     "jsonrpc": "2.0",
     "method": "host.update",
     "params": {
-        "hostid": "10126",
-        "tls_connect": 1,
-        "tls_accept": 2,
-        "tls_psk_identity": "PSK 002",
-        "tls_psk": "e560cb0d918d26d31b4f642181f5f570ad89a390931102e5391d08327ba434e9",
-        "tags": {
-            "tag": "OS",
-            "value": "RHEL 7"
-        },
-        "inventory_mode": 0,
-        "inventory": {
-            "location": "Latvia, Riga"
-        },
+        "hostid": "10590",
         "macros": [
             {
                 "macro": "{$PASS}",
@@ -26,6 +14,14 @@
                 "description": "Updated description"
             }
         ],
+        "tags": {
+            "tag": "os",
+            "value": "rhel-7"
+        },
+        "inventory_mode": 0,
+        "inventory": {
+            "location": "Latvia, Riga"
+        },
         "templates_clear": [
             {
                 "templateid": "10124"
@@ -34,8 +30,12 @@
                 "templateid": "10125"
             }
         ],
-        "status": 0
+        "status": 0,
+        "tls_connect": 1,
+        "tls_accept": 2,
+        "tls_psk_identity": "PSK 002",
+        "tls_psk": "e560cb0d918d26d31b4f642181f5f570ad89a390931102e5391d08327ba434e9"
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

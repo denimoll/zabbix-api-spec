@@ -1,0 +1,15 @@
+{
+           "jsonrpc": "2.0",
+           "method": "templategroup.massremove",
+           "params": {
+               "groupids": [
+                   "5",
+                   "6"
+               ],
+               "templateids": [
+                   "30050",
+                   "30001"
+               ]
+           },
+           "id": 1
+       }

@@ -1,0 +1,16 @@
+{
+           "jsonrpc": "2.0",
+           "method": "userdirectory.create",
+           "params": {
+               "idp_type": "1",
+               "name": "LDAP API server #1",
+               "host": "ldap://local.ldap",
+               "port": "389",
+               "base_dn": "ou=Users,dc=example,dc=org",
+               "bind_dn": "cn=ldap_search,dc=example,dc=org",
+               "bind_password": "ldapsecretpassword",
+               "search_attribute": "uid",
+               "start_tls": "1"
+           },
+           "id": 1
+       }

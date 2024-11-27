@@ -13,9 +13,9 @@
         "evaltype": 0,
         "tags": [
             {
-                "tag": "A",
-                "value": "1",
-                "operator": "0"
+                "tag": "os",
+                "value": "rhel-7",
+                "operator": 1
             }
         ],
         "selectInventory": [
@@ -30,7 +30,7 @@
             "name"
         ],
         "hostids": 10502,
-        "selectGroups": "extend",
+        "selectHostGroups": "extend",
         "filter": {
             "host": [
                 "Zabbix server",
@@ -43,6 +43,6 @@
         ],
         "inheritedTags": true
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

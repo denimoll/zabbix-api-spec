@@ -21,18 +21,29 @@
         "url": "http://127.0.0.1?discoverer.php",
         "query_fields": [
             {
-                "mode": "json"
+                "name": "mode",
+                "value": "json"
             },
             {
-                "elements": "2"
+                "name": "elements",
+                "value": "2"
             }
         ],
-        "headers": {
-            "X-Type": "api",
-            "Authorization": "Bearer mF_A.B5f-2.1JcM"
-        },
+        "headers": [
+            {
+                "name": "X-Type",
+                "value": "api"
+            },
+            {
+                "name": "Authorization",
+                "value": "Bearer mF_A.B5f-2.1JcM"
+            }
+        ],
         "allow_traps": 1,
         "trapper_hosts": "127.0.0.1",
+        "lifetime_type": 1,
+        "enabled_lifetime_type": 0,
+        "enabled_lifetime": "1h",
         "filter": {
             "evaltype": 1,
             "formula": "(A and B) and (C or D)",
@@ -68,7 +79,7 @@
                 "path": "$.path.2"
             }
         ],
-        "params": "var request = new CurlHttpRequest();\nreturn request.Post(\"https://postman-echo.com/post\", JSON.parse(value));",
+        "params": "var request = new HttpRequest();\nreturn request.post(\"https://postman-echo.com/post\", JSON.parse(value));",
         "parameters": [
             {
                 "name": "host",
@@ -111,8 +122,8 @@
                         ],
                         "optag": [
                             {
-                                "tag": "Database",
-                                "value": "MySQL"
+                                "tag": "database",
+                                "value": "mysql"
                             }
                         ]
                     }
@@ -147,8 +158,8 @@
                         ],
                         "optag": [
                             {
-                                "tag": "Database",
-                                "value": "PostgreSQL"
+                                "tag": "database",
+                                "value": "postgresql"
                             }
                         ]
                     }
@@ -156,6 +167,6 @@
             }
         ]
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

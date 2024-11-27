@@ -1,0 +1,13 @@
+{
+           "jsonrpc": "2.0",
+           "method": "event.get",
+           "params": {
+               "output": "extend",
+               "action": 2,
+               "action_userids": [10],
+               "selectAcknowledges": ["userid", "action"],
+               "sortfield": ["eventid"],
+               "sortorder": "DESC"
+           },
+           "id": 1
+       }

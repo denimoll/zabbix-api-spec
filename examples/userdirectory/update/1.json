@@ -1,0 +1,30 @@
+{
+           "jsonrpc": "2.0",
+           "method": "userdirectory.update",
+           "params": {
+               "userdirectoryid": "2",
+               "provision_media": [
+                       {
+                           "userdirectory_mediaid": "2"
+                       }
+                   ],
+                   "provision_groups": [
+                       {
+                           "name": "Zabbix administrators",
+                           "roleid": "2",
+                           "user_groups": [
+                               {
+                                   "usrgrpid": "7"
+                               },
+                               {
+                                   "usrgrpid": "8"
+                               },
+                               {
+                                   "usrgrpid": "11"
+                               }
+                           ]
+                       }
+                   ]
+           },
+           "id": 1
+       }

@@ -11,6 +11,5 @@
                "sortfield": ["eventid"],
                "sortorder": "DESC"
            },
-           "auth": "67f45d3eb1173338e1b1647c4bdc1916",
            "id": 1
        }

@@ -4,22 +4,6 @@
     "params": {
         "name": "Trigger action",
         "eventsource": 1,
-        "filter": {
-            "evaltype": 3,
-            "conditions": [
-                {
-                    "conditiontype": 1,
-                    "operator": 0,
-                    "value": "10084"
-                },
-                {
-                    "conditiontype": 3,
-                    "operator": 2,
-                    "value": "memory"
-                }
-            ],
-            "formula": "A and (B or C)"
-        },
         "operations": [
             {
                 "operationtype": 0,
@@ -56,6 +40,22 @@
                 }
             }
         ],
+        "filter": {
+            "evaltype": 3,
+            "conditions": [
+                {
+                    "conditiontype": 1,
+                    "operator": 0,
+                    "value": "10084"
+                },
+                {
+                    "conditiontype": 3,
+                    "operator": 2,
+                    "value": "memory"
+                }
+            ],
+            "formula": "A and (B or C)"
+        },
         "esc_period": "30m",
         "recovery_operations": [
             {
@@ -76,6 +76,6 @@
             }
         ]
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

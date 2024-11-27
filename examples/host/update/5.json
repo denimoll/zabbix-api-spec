@@ -2,12 +2,12 @@
            "jsonrpc": "2.0",
            "method": "host.update",
            "params": {
-               "hostid": "10590",
-               "tls_connect": 1,
-               "tls_accept": 2,
-               "tls_psk_identity": "PSK 002",
-               "tls_psk": "e560cb0d918d26d31b4f642181f5f570ad89a390931102e5391d08327ba434e9"
+               "hostid": "10387",
+               "macros": {
+                   "hostmacroid": "5541",
+                   "value": "new-value",
+                   "automatic": "0"
+               }
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

@@ -1,0 +1,14 @@
+{
+           "jsonrpc": "2.0",
+           "method": "hostgroup.propagate",
+           "params": {
+               "groups": [
+                   {
+                       "groupid": "6"
+                   }
+               ],
+               "permissions": true,
+               "tag_filters": true
+           },
+           "id": 1
+       }

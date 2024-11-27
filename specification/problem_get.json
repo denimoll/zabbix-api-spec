@@ -3,16 +3,20 @@
     "method": "problem.get",
     "params": {
         "output": "extend",
+        "action": 2,
+        "action_userids": [
+            10
+        ],
         "selectAcknowledges": "extend",
-        "selectTags": "extend",
-        "selectSuppressionData": "extend",
-        "objectids": "15112",
-        "recent": "true",
         "sortfield": [
             "eventid"
         ],
-        "sortorder": "DESC"
+        "sortorder": "DESC",
+        "selectTags": "extend",
+        "selectSuppressionData": "extend",
+        "objectids": "15112",
+        "recent": "true"
     },
-    "auth": "67f45d3eb1173338e1b1647c4bdc1916",
+    "auth": null,
     "id": 1
 }

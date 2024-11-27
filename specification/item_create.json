@@ -7,7 +7,7 @@
         "hostid": "30074",
         "type": 4,
         "value_type": 3,
-        "params": "var request = new CurlHttpRequest();\nreturn request.Post(\"https://postman-echo.com/post\", JSON.parse(value));",
+        "params": "var request = new HttpRequest();\nreturn request.post(\"https://postman-echo.com/post\", JSON.parse(value));",
         "parameters": [
             {
                 "name": "host",
@@ -19,13 +19,16 @@
         "url": "http://127.0.0.1/http.php",
         "query_fields": [
             {
-                "mode": "json"
+                "name": "mode",
+                "value": "json"
             },
             {
-                "min": "10"
+                "name": "min",
+                "value": "10"
             },
             {
-                "max": "100"
+                "name": "max",
+                "value": "100"
             }
         ],
         "interfaceid": "30084",
@@ -44,14 +47,15 @@
         "inventory_link": 5,
         "tags": [
             {
-                "tag": "Disk usage"
+                "tag": "component",
+                "value": "storage"
             },
             {
-                "tag": "Equipment",
-                "value": "Workstation"
+                "tag": "equipment",
+                "value": "workstation"
             }
         ]
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

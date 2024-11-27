@@ -1,0 +1,15 @@
+{
+           "jsonrpc": "2.0",
+           "method": "host.create",
+           "params": {
+               "host": "Host monitored by proxy",
+               "groups": [
+                   {
+                       "groupid": "2"
+                   }
+               ],
+               "monitored_by": 1,
+               "proxyid": 1
+           },
+           "id": 1
+       }

@@ -3,8 +3,13 @@
     "method": "script.update",
     "params": {
         "scriptid": "1",
-        "command": "/bin/ping -c 10 {HOST.CONN} 2>&1"
+        "command": "/bin/ping -c 10 {HOST.CONN} 2>&1",
+        "manualinput": "1",
+        "manualinput_prompt": "Specify the number of ICMP packets to send with the ping command",
+        "manualinput_validator": "^(?:[1-9]|10)$",
+        "manualinput_validator_type": "0",
+        "manualinput_default_value": "10"
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

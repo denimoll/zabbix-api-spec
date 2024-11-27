@@ -1,0 +1,10 @@
+{
+           "jsonrpc": "2.0",
+           "method": "proxy.create",
+           "params": {
+               "name": "Active proxy",
+               "proxy_groupid": "1",
+               "operating_mode": "0"
+           },
+           "id": 1
+       }

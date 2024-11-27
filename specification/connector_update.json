@@ -1,0 +1,11 @@
+{
+    "jsonrpc": "2.0",
+    "method": "connector.update",
+    "params": {
+        "connectorid": 3,
+        "authtype": 5,
+        "token": "{$DATA_EXPORT_BEARER_TOKEN}"
+    },
+    "auth": null,
+    "id": 1
+}

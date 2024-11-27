@@ -2,19 +2,35 @@
     "jsonrpc": "2.0",
     "method": "event.get",
     "params": {
-        "output": "extend",
+        "countOutput": true,
+        "groupBy": "objectid",
+        "source": 0,
+        "object": 0,
+        "value": 1,
         "time_from": "1349797228",
         "time_till": "1350661228",
+        "trigger_severities": [
+            2,
+            3,
+            4,
+            5
+        ],
         "sortfield": [
             "clock",
             "eventid"
         ],
         "sortorder": "DESC",
-        "select_acknowledges": "extend",
-        "selectTags": "extend",
+        "limit": 5,
+        "output": "extend",
+        "action": 2,
+        "action_userids": [
+            10
+        ],
+        "selectAcknowledges": "extend",
         "selectSuppressionData": "extend",
-        "objectids": "13926"
+        "selectTags": "extend",
+        "objectids": "22395"
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }
