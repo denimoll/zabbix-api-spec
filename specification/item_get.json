@@ -1,0 +1,18 @@
+{
+    "jsonrpc": "2.0",
+    "method": "item.get",
+    "params": {
+        "hostids": "10084",
+        "filter": {
+            "type": "18",
+            "post_type": "3"
+        },
+        "output": "extend",
+        "search": {
+            "key_": "system"
+        },
+        "sortfield": "name"
+    },
+    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "id": 1
+}

@@ -1,0 +1,20 @@
+{
+    "jsonrpc": "2.0",
+    "method": "valuemap.update",
+    "params": {
+        "valuemapid": "2",
+        "mappings": [
+            {
+                "value": "0",
+                "newvalue": "Online"
+            },
+            {
+                "value": "1",
+                "newvalue": "Offline"
+            }
+        ],
+        "name": "Device status"
+    },
+    "auth": "57562fd409b3b3b9a4d916d45207bbcb",
+    "id": 1
+}

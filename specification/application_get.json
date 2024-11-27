@@ -1,0 +1,11 @@
+{
+    "jsonrpc": "2.0",
+    "method": "application.get",
+    "params": {
+        "output": "extend",
+        "hostids": "10001",
+        "sortfield": "name"
+    },
+    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "id": 1
+}
