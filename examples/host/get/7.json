@@ -3,7 +3,9 @@
            "method": "host.get",
            "params": {
                "output": ["name"],
-               "severities": 5
+               "hostids": 10502,
+               "selectTags": ["tag", "value"],
+               "selectInheritedTags": ["tag", "value"]
            },
            "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1

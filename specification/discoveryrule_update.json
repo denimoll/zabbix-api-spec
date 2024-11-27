@@ -3,15 +3,17 @@
     "method": "discoveryrule.update",
     "params": {
         "itemid": "22450",
+        "parameters": [],
+        "script": "Zabbix.Log(3, 'Log test');\nreturn 1;",
         "preprocessing": [
             {
-                "type": "12",
+                "type": 12,
                 "params": "$.path.to.json",
-                "error_handler": "2",
+                "error_handler": 2,
                 "error_handler_params": "5"
             }
         ],
-        "allow_traps": "0",
+        "allow_traps": 0,
         "lld_macro_paths": [
             {
                 "lld_macro": "{#MACRO1}",

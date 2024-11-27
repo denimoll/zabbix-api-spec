@@ -5,26 +5,26 @@
         "output": [
             "name"
         ],
-        "tags": [
-            {
-                "tag": "Host name",
-                "value": "Linux server",
-                "operator": 1
-            }
-        ],
-        "inheritedTags": true,
+        "severities": 5,
         "selectTags": [
             "tag",
             "value"
         ],
         "evaltype": 0,
-        "severities": 5,
+        "tags": [
+            {
+                "tag": "A",
+                "value": "1",
+                "operator": "0"
+            }
+        ],
         "selectInventory": [
             "os"
         ],
         "searchInventory": {
             "os": "Linux"
         },
+        "templateids": "10001",
         "selectParentTemplates": [
             "templateid",
             "name"
@@ -40,7 +40,8 @@
         "selectInheritedTags": [
             "tag",
             "value"
-        ]
+        ],
+        "inheritedTags": true
     },
     "auth": "038e1d7b1735c6a5436ee9eae095879e",
     "id": 1

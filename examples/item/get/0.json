@@ -4,8 +4,9 @@
            "params": {
                "output": "extend",
                "hostids": "10084",
+               "with_triggers": true,
                "search": {
-                   "key_": "system"
+                   "key_": "system.cpu"
                },
                "sortfield": "name"
            },

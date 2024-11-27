@@ -4,7 +4,7 @@
            "params": [
                {
                    "description": "Processor load is too high on {HOST.NAME}",
-                   "expression": "{Linux server:system.cpu.load[percpu,avg1].last()}>5",
+                   "expression": "last(/Linux server/system.cpu.load[percpu,avg1])>5",
                    "dependencies": [
                        {
                            "triggerid": "17367"
@@ -13,7 +13,7 @@
                },
                {
                    "description": "Service status",
-                   "expression": "{Linux server:log[/var/log/system,Service .* has stopped].strlen()}<>0",
+                   "expression": "length(last(/Linux server/log[/var/log/system,Service .* has stopped]))<>0",
                    "dependencies": [
                        {
                            "triggerid": "17368"

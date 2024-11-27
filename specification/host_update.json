@@ -9,7 +9,7 @@
         "tls_psk": "e560cb0d918d26d31b4f642181f5f570ad89a390931102e5391d08327ba434e9",
         "tags": {
             "tag": "OS",
-            "value": "CentOS 7"
+            "value": "RHEL 7"
         },
         "inventory_mode": 0,
         "inventory": {

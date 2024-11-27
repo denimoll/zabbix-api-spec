@@ -10,12 +10,12 @@
                 "templateid": "10086"
             }
         ],
-        "hosts": [
+        "templates_link": [
             {
-                "hostid": "10106"
+                "templateid": "10106"
             },
             {
-                "hostid": "10104"
+                "templateid": "10104"
             }
         ],
         "groups": [

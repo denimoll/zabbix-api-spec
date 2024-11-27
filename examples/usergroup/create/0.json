@@ -7,7 +7,9 @@
                    "permission": 0,
                    "id": "2"
                },
-               "userids": "12"
+               "users": [
+                   {"userid": "12"}
+               ]
            },
            "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1

@@ -5,7 +5,7 @@
                "name": "Filtered LLD rule",
                "key_": "lld",
                "hostid": "10116",
-               "type": "0",
+               "type": 0,
                "interfaceid": "13",
                "delay": "30s",
                "filter": {

@@ -6,12 +6,12 @@
         "groups": {
             "groupid": 1
         },
-        "hosts": [
+        "templates": [
             {
-                "hostid": "10084"
+                "templateid": "11115"
             },
             {
-                "hostid": "10090"
+                "templateid": "11116"
             }
         ],
         "tags": [

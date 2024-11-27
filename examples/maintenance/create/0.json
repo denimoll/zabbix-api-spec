@@ -6,16 +6,16 @@
                "active_since": 1358844540,
                "active_till": 1390466940,
                "tags_evaltype": 0,
-               "groupids": [
-                   "2"
+               "groups": [
+                   {"groupid": "2"}
                ],
                "timeperiods": [
                    {
+                       "period": 3600,
                        "timeperiod_type": 3,
-                       "every": 1,
-                       "dayofweek": 64,
                        "start_time": 64800,
-                       "period": 3600
+                       "every": 1,
+                       "dayofweek": 64
                    }
                ],
                "tags": [

@@ -52,8 +52,7 @@
                     }
                 ],
                 "opcommand": {
-                    "type": 4,
-                    "scriptid": "3"
+                    "scriptid": "5"
                 }
             }
         ],
@@ -66,7 +65,7 @@
                 }
             }
         ],
-        "acknowledge_operations": [
+        "update_operations": [
             {
                 "operationtype": "12",
                 "opmessage": {

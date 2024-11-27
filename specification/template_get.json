@@ -12,10 +12,15 @@
                 "operator": 1
             }
         ],
+        "templateids": "10001",
+        "selectHosts": [
+            "hostid",
+            "name"
+        ],
         "filter": {
             "host": [
-                "Template OS Linux",
-                "Template OS Windows"
+                "Linux",
+                "Windows"
             ]
         }
     },

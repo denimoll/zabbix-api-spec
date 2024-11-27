@@ -3,6 +3,7 @@
     "method": "user.update",
     "params": {
         "userid": "1",
+        "roleid": "6",
         "name": "John",
         "surname": "Doe"
     },

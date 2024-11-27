@@ -3,7 +3,7 @@
            "method": "dashboard.get",
            "params": {
                "output": "extend",
-               "selectWidgets": "extend",
+               "selectPages": "extend",
                "selectUsers": "extend",
                "selectUserGroups": "extend",
                "dashboardids": [

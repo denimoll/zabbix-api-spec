@@ -2,14 +2,15 @@
     "jsonrpc": "2.0",
     "method": "user.create",
     "params": {
-        "alias": "John",
+        "username": "John",
         "passwd": "Doe123",
+        "roleid": "5",
         "usrgrps": [
             {
                 "usrgrpid": "7"
             }
         ],
-        "user_medias": [
+        "medias": [
             {
                 "mediatypeid": "1",
                 "sendto": [

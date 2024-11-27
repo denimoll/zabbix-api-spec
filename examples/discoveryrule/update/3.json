@@ -5,9 +5,9 @@
                "itemid": "44211",
                "preprocessing": [
                    {
-                       "type": "12",
+                       "type": 12,
                        "params": "$.path.to.json",
-                       "error_handler": "2",
+                       "error_handler": 2,
                        "error_handler_params": "5"
                    }
                ]

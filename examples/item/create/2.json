@@ -13,9 +13,9 @@
                "interfaceid": "1156",
                "preprocessing": [
                    {
-                       "type": "1",
+                       "type": 1,
                        "params": "0.01",
-                       "error_handler": "1",
+                       "error_handler": 1,
                        "error_handler_params": ""
                    }
                ]

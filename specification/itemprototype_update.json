@@ -3,11 +3,13 @@
     "method": "itemprototype.update",
     "params": {
         "itemid": "27428",
+        "parameters": [],
+        "script": "Zabbix.Log(3, 'Log test');\nreturn 1;",
         "preprocessing": [
             {
-                "type": "1",
+                "type": 1,
                 "params": "4",
-                "error_handler": "2",
+                "error_handler": 2,
                 "error_handler_params": "5"
             }
         ],

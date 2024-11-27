@@ -5,8 +5,8 @@
                "output": "extend",
                "filter": {
                    "host": [
-                       "Template OS Linux",
-                       "Template OS Windows"
+                       "Linux",
+                       "Windows"
                    ]
                }
            },

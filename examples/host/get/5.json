@@ -2,10 +2,17 @@
            "jsonrpc": "2.0",
            "method": "host.get",
            "params": {
-               "output": ["name"],
-               "tags": [{"tag": "A", "value": "1", "operator": "0"}],
-               "inheritedTags": true
+               "output": ["hostid"],
+               "selectTags": "extend",
+               "evaltype": 0,
+               "tags": [
+                   {
+                       "tag": "Host name",
+                       "value": "Linux server",
+                       "operator": 1
+                   }
+               ]
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
+           "auth": "7f9e00124c75e8f25facd5c093f3e9a0",
            "id": 1
        }

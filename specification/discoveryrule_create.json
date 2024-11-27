@@ -5,15 +5,16 @@
         "name": "Discover database host",
         "key_": "lld.with.overrides",
         "hostid": "10001",
-        "type": "0",
+        "ruleid": "27665",
+        "type": 21,
         "value_type": 3,
         "delay": "60s",
         "interfaceid": "1155",
         "preprocessing": [
             {
-                "type": "20",
+                "type": 20,
                 "params": "20",
-                "error_handler": "0",
+                "error_handler": 0,
                 "error_handler_params": ""
             }
         ],
@@ -30,10 +31,8 @@
             "X-Type": "api",
             "Authorization": "Bearer mF_A.B5f-2.1JcM"
         },
-        "allow_traps": "1",
+        "allow_traps": 1,
         "trapper_hosts": "127.0.0.1",
-        "id": 35,
-        "auth": "d678e0b85688ce578ff061bd29a20d3b",
         "filter": {
             "evaltype": 1,
             "formula": "(A and B) and (C or D)",
@@ -44,11 +43,18 @@
                 },
                 {
                     "macro": "{#MACRO2}",
-                    "value": "@regex2"
+                    "value": "@regex2",
+                    "operator": "9"
                 },
                 {
                     "macro": "{#MACRO3}",
-                    "value": "@regex3"
+                    "value": "",
+                    "operator": "12"
+                },
+                {
+                    "macro": "{#MACRO4}",
+                    "value": "",
+                    "operator": "13"
                 }
             ]
         },
@@ -62,6 +68,14 @@
                 "path": "$.path.2"
             }
         ],
+        "params": "var request = new CurlHttpRequest();\nreturn request.Post(\"https://postman-echo.com/post\", JSON.parse(value));",
+        "parameters": [
+            {
+                "name": "host",
+                "value": "{HOST.CONN}"
+            }
+        ],
+        "timeout": "6s",
         "overrides": [
             {
                 "name": "Discover MySQL host",
@@ -94,6 +108,12 @@
                             {
                                 "templateid": "10170"
                             }
+                        ],
+                        "optag": [
+                            {
+                                "tag": "Database",
+                                "value": "MySQL"
+                            }
                         ]
                     }
                 ]
@@ -123,6 +143,12 @@
                         "optemplate": [
                             {
                                 "templateid": "10263"
+                            }
+                        ],
+                        "optag": [
+                            {
+                                "tag": "Database",
+                                "value": "PostgreSQL"
                             }
                         ]
                     }

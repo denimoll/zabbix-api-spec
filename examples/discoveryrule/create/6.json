@@ -41,6 +41,12 @@
                                    {
                                        "templateid": "10170"
                                    }
+                               ],
+                               "optag": [
+                                   {
+                                       "tag": "Database",
+                                       "value": "MySQL"
+                                   }
                                ]
                            }
                        ]
@@ -70,6 +76,12 @@
                                "optemplate": [
                                    {
                                        "templateid": "10263"
+                                   }
+                               ],
+                               "optag": [
+                                   {
+                                       "tag": "Database",
+                                       "value": "PostgreSQL"
                                    }
                                ]
                            }
