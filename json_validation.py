@@ -13,10 +13,10 @@ def json_validation(file):
         return 0
 
 
-input_dir = "examples"
-for cls in os.listdir(input_dir):
-    for act in os.listdir('%s/%s' % (input_dir, cls)):
-        path = "%s/%s/%s" % (input_dir, cls, act)
+path = "examples"
+for cls in os.listdir(path):
+    for act in os.listdir('%s/%s' % (path, cls)):
+        path = "%s/%s/%s" % (path, cls, act)
         files = glob.glob("%s/*.json" % path)
         for file in files:
             json_validation(file)
