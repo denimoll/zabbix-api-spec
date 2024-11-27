@@ -13,7 +13,7 @@ def json_validation(file):
         return 0
 
 
-input_dir = "input_example"
+input_dir = "examples"
 for cls in os.listdir(input_dir):
     for act in os.listdir('%s/%s' % (input_dir, cls)):
         path = "%s/%s/%s" % (input_dir, cls, act)

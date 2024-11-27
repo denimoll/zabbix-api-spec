@@ -28,7 +28,7 @@ def get_api_example(url):
 # Основная часть программы
 zabbix_version = "4.0"
 url = "https://www.zabbix.com/documentation/%s/en/manual/api/reference" % zabbix_version
-input_dir = "input_example"
+input_dir = "examples"
 if not os.path.exists(input_dir):
     os.makedirs(input_dir)
 
