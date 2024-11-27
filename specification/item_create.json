@@ -1,0 +1,43 @@
+{
+    "jsonrpc": "2.0",
+    "method": "item.create",
+    "params": {
+        "url": "http://127.0.0.1/http.php",
+        "query_fields": [
+            {
+                "mode": "json"
+            },
+            {
+                "min": "10"
+            },
+            {
+                "max": "100"
+            }
+        ],
+        "interfaceid": "30084",
+        "type": 4,
+        "hostid": "30074",
+        "delay": "30s",
+        "key_": "vfs.fs.size[/home/joe/,free]",
+        "name": "Free disk space on /home/joe/",
+        "value_type": 3,
+        "output_format": "1",
+        "preprocessing": [
+            {
+                "type": "1",
+                "params": "0.01"
+            }
+        ],
+        "master_itemid": "24759",
+        "snmp_community": "{$SNMP_COMMUNITY}",
+        "snmp_oid": "SNMPv2-MIB::sysUpTime.0",
+        "units": "uptime",
+        "inventory_link": 5,
+        "applications": [
+            "609",
+            "610"
+        ]
+    },
+    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "id": 1
+}

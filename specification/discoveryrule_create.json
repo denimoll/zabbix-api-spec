@@ -1,0 +1,50 @@
+{
+    "jsonrpc": "2.0",
+    "method": "discoveryrule.create",
+    "params": {
+        "hostid": "10197",
+        "interfaceid": "112",
+        "type": "0",
+        "name": "Mounted filesystem discovery",
+        "key_": "vfs.fs.discovery",
+        "value_type": "3",
+        "delay": "30s",
+        "url": "http://127.0.0.1?discoverer.php",
+        "query_fields": [
+            {
+                "mode": "json"
+            },
+            {
+                "elements": "2"
+            }
+        ],
+        "headers": {
+            "X-Type": "api",
+            "Authorization": "Bearer mF_A.B5f-2.1JcM"
+        },
+        "allow_traps": "1",
+        "trapper_hosts": "127.0.0.1",
+        "id": 35,
+        "auth": "d678e0b85688ce578ff061bd29a20d3b",
+        "filter": {
+            "evaltype": 1,
+            "formula": "(A and B) and (C or D)",
+            "conditions": [
+                {
+                    "macro": "{#MACRO1}",
+                    "value": "@regex1"
+                },
+                {
+                    "macro": "{#MACRO2}",
+                    "value": "@regex2"
+                },
+                {
+                    "macro": "{#MACRO3}",
+                    "value": "@regex3"
+                }
+            ]
+        }
+    },
+    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "id": 1
+}

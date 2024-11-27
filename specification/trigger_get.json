@@ -1,0 +1,17 @@
+{
+    "jsonrpc": "2.0",
+    "method": "trigger.get",
+    "params": {
+        "output": "extend",
+        "selectTags": "extend",
+        "triggerids": "14062",
+        "filter": {
+            "value": 1
+        },
+        "sortfield": "priority",
+        "sortorder": "DESC",
+        "selectFunctions": "extend"
+    },
+    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "id": 1
+}

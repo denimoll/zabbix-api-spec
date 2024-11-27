@@ -1,0 +1,13 @@
+{
+    "jsonrpc": "2.0",
+    "method": "screen.get",
+    "params": {
+        "output": "extend",
+        "selectScreenItems": "extend",
+        "selectUsers": "extend",
+        "selectUserGroups": "extend",
+        "screenids": "26"
+    },
+    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "id": 1
+}

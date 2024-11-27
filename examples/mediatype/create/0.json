@@ -1,0 +1,13 @@
+{
+           "jsonrpc": "2.0",
+           "method": "mediatype.create",
+           "params": {
+               "description": "E-mail",
+               "type": 0,
+               "smtp_server": "[email protected]",
+               "smtp_helo": "company.com",
+               "smtp_email": "[email protected]"
+           },
+           "auth": "038e1d7b1735c6a5436ee9eae095879e",
+           "id": 1
+       }

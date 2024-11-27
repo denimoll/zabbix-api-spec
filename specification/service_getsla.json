@@ -1,0 +1,15 @@
+{
+    "jsonrpc": "2.0",
+    "method": "service.getsla",
+    "params": {
+        "serviceids": "2",
+        "intervals": [
+            {
+                "from": 1352452201,
+                "to": 1353057001
+            }
+        ]
+    },
+    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "id": 1
+}
