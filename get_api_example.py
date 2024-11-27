@@ -7,7 +7,6 @@ from lxml import html
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
-
 def get_api_list(url):
     response = requests.get(url, verify=False)
     tree = html.fromstring(response.content)
@@ -28,14 +27,14 @@ def get_api_example(url):
 # Основная часть программы
 zabbix_version = "4.0"
 url = "https://www.zabbix.com/documentation/%s/en/manual/api/reference" % zabbix_version
-input_dir = "examples"
-if not os.path.exists(input_dir):
-    os.makedirs(input_dir)
+path = "examples"
+if not os.path.exists(path):
+    os.makedirs(path)
 
 for method in get_api_list(url):
     cls = method.split('.')[0]
     act = method.split('.')[1]
-    folder = "%s/%s/%s" % (input_dir, cls, act)
+    folder = "%s/%s/%s" % (path, cls, act)
     if not os.path.exists(folder):
         os.makedirs(folder)
     path_to_api_doc = "%s/%s/%s" % (url, cls, act)
