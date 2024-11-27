@@ -1,0 +1,9 @@
+{
+           "jsonrpc": "2.0",
+           "method": "proxygroup.update",
+           "params": {
+               "proxy_groupid": "5",
+               "min_online": "3"
+           },
+           "id": 1
+       }

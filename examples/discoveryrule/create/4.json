@@ -12,19 +12,26 @@
                "url": "http://127.0.0.1?discoverer.php",
                "query_fields": [
                    {
-                       "mode": "json"
+                       "name": "mode",
+                       "value": "json"
                    },
                    {
-                       "elements": "2"
+                       "name": "elements",
+                       "value": "2"
                    }
                ],
-               "headers": {
-                   "X-Type": "api",
-                   "Authorization": "Bearer mF_A.B5f-2.1JcM"
-               },
+               "headers": [
+                   {
+                       "name": "X-Type",
+                       "value": "api"
+                   },
+                   {
+                       "name": "Authorization",
+                       "value": "Bearer mF_A.B5f-2.1JcM"
+                   }
+               ],
                "allow_traps": 1,
                "trapper_hosts": "127.0.0.1"
            },
-           "auth": "d678e0b85688ce578ff061bd29a20d3b",
            "id": 1
        }

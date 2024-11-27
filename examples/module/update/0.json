@@ -1,0 +1,9 @@
+{
+           "jsonrpc": "2.0",
+           "method": "module.update",
+           "params": {
+               "moduleid": "25",
+               "status": 0
+           },
+           "id": 1
+       }

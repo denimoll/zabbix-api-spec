@@ -12,23 +12,23 @@
                                "type": "problems",
                                "x": 0,
                                "y": 0,
-                               "width": 12,
+                               "width": 36,
                                "height": 5,
                                "view_mode": 0,
                                "fields": [
                                    {
                                        "type": 1,
-                                       "name": "tags.tag.0",
+                                       "name": "tags.0.tag",
                                        "value": "service"
                                    },
                                    {
                                        "type": 0,
-                                       "name": "tags.operator.0",
+                                       "name": "tags.0.operator",
                                        "value": 1
                                    },
                                    {
                                        "type": 1,
-                                       "name": "tags.value.0",
+                                       "name": "tags.0.value",
                                        "value": "zabbix_server"
                                    }
                                ]
@@ -49,6 +49,5 @@
                    }
                ]
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

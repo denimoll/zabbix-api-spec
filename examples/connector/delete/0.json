@@ -1,0 +1,9 @@
+{
+           "jsonrpc": "2.0",
+           "method": "connector.delete",
+           "params": [
+               3,
+               5
+           ],
+           "id": 1
+       }

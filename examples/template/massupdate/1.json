@@ -1,0 +1,28 @@
+{
+           "jsonrpc": "2.0",
+           "method": "template.massupdate",
+           "params": {
+               "templates": [
+                   {
+                       "templateid": "10074"
+                   },
+                   {
+                       "templateid": "10075"
+                   },
+                   {
+                       "templateid": "10076"
+                   },
+                   {
+                       "templateid": "10077"
+                   }
+               ],
+               "macros": [
+                   {
+                       "macro": "{$AGENT.TIMEOUT}",
+                       "value": "5m",
+                       "description": "Timeout after which agent is considered unavailable. Works only for agents reachable from Zabbix server/proxy (passive mode)."
+                   }
+               ]
+           },
+           "id": 1
+       }

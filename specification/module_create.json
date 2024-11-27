@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "module.create",
+    "params": {
+        "id": "example_module",
+        "relative_path": "modules/example_module",
+        "status": 1
+    },
+    "id": 1
+}

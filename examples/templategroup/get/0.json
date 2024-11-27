@@ -1,0 +1,14 @@
+{
+           "jsonrpc": "2.0",
+           "method": "templategroup.get",
+           "params": {
+               "output": "extend",
+               "filter": {
+                   "name": [
+                       "Templates/Databases",
+                       "Templates/Modules"
+                   ]
+               }
+           },
+           "id": 1
+       }

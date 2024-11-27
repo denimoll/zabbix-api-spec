@@ -1,0 +1,32 @@
+{
+           "jsonrpc": "2.0",
+           "method": "action.create",
+           "params": {
+               "name": "Register Linux servers with tags",
+               "eventsource": "2",
+               "operations": [
+                   {
+                       "operationtype": "4",
+                       "opgroup": [
+                           {
+                               "groupid": "2"
+                           }
+                       ]
+                   },
+                   {
+                       "operationtype": "13",
+                       "optag": [
+                           {
+                               "tag": "location",
+                               "value": "office"
+                           },
+                           {
+                               "tag": "city",
+                               "value": "Riga"
+                           }
+                       ]
+                   }
+               ]
+           },
+           "id": 1
+       }

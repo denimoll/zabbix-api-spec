@@ -5,6 +5,5 @@
                "output": ["hostid", "name"],
                "templateids": "10001"
            },
-           "auth": "70785d2b494a7302309b48afcdb3a401",
            "id": 1
        }

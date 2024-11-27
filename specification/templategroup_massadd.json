@@ -1,0 +1,23 @@
+{
+    "jsonrpc": "2.0",
+    "method": "templategroup.massadd",
+    "params": {
+        "groups": [
+            {
+                "groupid": "12"
+            },
+            {
+                "groupid": "13"
+            }
+        ],
+        "templates": [
+            {
+                "templateid": "10486"
+            },
+            {
+                "templateid": "10487"
+            }
+        ]
+    },
+    "id": 1
+}

@@ -3,13 +3,12 @@
            "method": "event.get",
            "params": {
                "output": "extend",
-               "select_acknowledges": "extend",
-               "selectTags": "extend",
+               "selectAcknowledges": "extend",
                "selectSuppressionData": "extend",
-               "objectids": "13926",
+               "selectTags": "extend",
+               "objectids": "22395",
                "sortfield": ["clock", "eventid"],
                "sortorder": "DESC"
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

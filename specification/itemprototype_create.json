@@ -7,7 +7,7 @@
         "hostid": "10197",
         "type": 18,
         "value_type": 3,
-        "params": "var request = new CurlHttpRequest();\nreturn request.Post(\"https://postman-echo.com/post\", JSON.parse(value));",
+        "params": "var request = new HttpRequest();\nreturn request.post(\"https://postman-echo.com/post\", JSON.parse(value));",
         "parameters": [
             {
                 "name": "host",
@@ -21,15 +21,20 @@
         "url": "{$URL_PROTOTYPE}",
         "query_fields": [
             {
-                "min": "10"
+                "name": "min",
+                "value": "10"
             },
             {
-                "max": "100"
+                "name": "max",
+                "value": "100"
             }
         ],
-        "headers": {
-            "X-Source": "api"
-        },
+        "headers": [
+            {
+                "name": "X-Source",
+                "value": "api"
+            }
+        ],
         "master_itemid": "44211",
         "units": "bps",
         "preprocessing": [
@@ -47,6 +52,6 @@
             }
         ]
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

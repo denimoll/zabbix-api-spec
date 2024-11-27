@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "userdirectory.get",
+    "params": {
+        "output": "extend",
+        "selectProvisionMedia": "extend",
+        "selectProvisionGroups": "extend"
+    },
+    "id": 1
+}

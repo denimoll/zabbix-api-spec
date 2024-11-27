@@ -23,6 +23,5 @@
                "tls_psk_identity": "PSK 001",
                "tls_psk": "1f87b595725ac58dd977beef14b97461a7c1045b9a1c963065002c5473194952"
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

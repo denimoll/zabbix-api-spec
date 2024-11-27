@@ -1,0 +1,23 @@
+{
+           "jsonrpc": "2.0",
+           "method": "connector.update",
+           "params": [
+               {
+                   "connectorid": 5,
+                   "tags_evaltype": 2,
+                   "tags": [
+                       {
+                           "tag": "service",
+                           "operator": 0,
+                           "value": "mysqld"
+                       },
+                       {
+                           "tag": "error",
+                           "operator": 12,
+                           "value": ""
+                       }
+                   ]
+               }
+           ],
+           "id": 1
+       }

@@ -1,0 +1,9 @@
+{
+           "jsonrpc": "2.0",
+           "method": "userdirectory.delete",
+           "params": [
+               "2",
+               "12"
+           ],
+           "id": 1
+       }

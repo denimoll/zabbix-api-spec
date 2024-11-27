@@ -1,0 +1,9 @@
+{
+           "jsonrpc": "2.0",
+           "method": "userdirectory.update",
+           "params": {
+               "userdirectoryid": "3",
+               "bind_password": "newldappassword"
+           },
+           "id": 1
+       }

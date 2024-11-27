@@ -1,0 +1,11 @@
+{
+           "jsonrpc": "2.0",
+           "method": "mfa.get",
+           "params": {
+               "output": "extend",
+               "search": {
+                   "name": "Zabbix"
+               }
+           },
+           "id": 1
+       }

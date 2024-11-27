@@ -10,12 +10,19 @@
                 "templateid": "10086"
             }
         ],
+        "macros": [
+            {
+                "macro": "{$AGENT.TIMEOUT}",
+                "value": "5m",
+                "description": "Timeout after which agent is considered unavailable. Works only for agents reachable from Zabbix server/proxy (passive mode)."
+            }
+        ],
         "templates_clear": [
             {
                 "templateid": "10091"
             }
         ]
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

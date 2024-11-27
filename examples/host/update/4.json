@@ -4,10 +4,9 @@
            "params": {
                "hostid": "10387",
                "tags": {
-                   "tag": "OS",
-                   "value": "RHEL 7"
+                   "tag": "os",
+                   "value": "rhel-7"
                }
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

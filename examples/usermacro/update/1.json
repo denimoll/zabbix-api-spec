@@ -1,0 +1,10 @@
+{
+           "jsonrpc": "2.0",
+           "method": "usermacro.update",
+           "params": {
+               "hostmacroid": "1",
+               "value": "new-value",
+               "automatic": "0"
+           },
+           "id": 1
+       }

@@ -12,17 +12,21 @@
                "url": "{$URL_PROTOTYPE}",
                "query_fields": [
                    {
-                       "min": "10"
+                       "name": "min",
+                       "value": "10"
                    },
                    {
-                       "max": "100"
+                       "name": "max",
+                       "value": "100"
                    }
                ],
-               "headers": {
-                   "X-Source": "api"
-               },
+               "headers": [
+                   {
+                       "name": "X-Source",
+                       "value": "api"
+                   }
+               ],
                "delay": "35"
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

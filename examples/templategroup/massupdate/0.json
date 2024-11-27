@@ -1,0 +1,17 @@
+{
+           "jsonrpc": "2.0",
+           "method": "templategroup.massupdate",
+           "params": {
+               "groups": [
+                   {
+                       "groupid": "8"
+                   }
+               ],
+               "templates": [
+                   {
+                       "templateid": "40050"
+                   }
+               ]
+           },
+           "id": 1
+       }

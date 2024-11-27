@@ -1,0 +1,8 @@
+{
+           "jsonrpc": "2.0",
+           "method": "mfa.delete",
+           "params": [
+               "2"
+           ],
+           "id": 1
+       }

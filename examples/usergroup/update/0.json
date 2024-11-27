@@ -3,8 +3,17 @@
            "method": "usergroup.update",
            "params": {
                "usrgrpid": "17",
-               "users_status": "1"
+               "users_status": "0",
+               "hostgroup_rights": [
+                   {
+                       "id": "2",
+                       "permission": 3
+                   },
+                   {
+                       "id": "4",
+                       "permission": 3
+                   }
+               ]
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

@@ -3,9 +3,8 @@
            "method": "proxy.update",
            "params": {
                "proxyid": "10293",
-               "host": "Active proxy",
-               "status": "5"
+               "name": "Active proxy",
+               "operating_mode": "0"
            },
-           "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1
        }

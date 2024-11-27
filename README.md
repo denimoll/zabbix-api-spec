@@ -31,3 +31,13 @@
 - *(повтор)* Невалидный json-файл examples/itemprototype/update/2.json, ошибка: Expecting ',' delimiter: line 13 column 12 (char 340)
 - Невалидный json-файл examples/report/get/0.json, ошибка: Expecting ',' delimiter: line 5 column 24 (char 112)
 3. *(повтор)* Для метода user.checkauthentication нестандартный адрес в документации.
+## Zabbix 7.0
+1. Большое изменение от разработчиков по передачи токена. Во всех примерах параметр auth убран
+> Note that the "auth" property is deprecated. It will be removed in the future releases.
+2. Добавлены новые классы и методы: connector, proxy, proxygroup, templategroup (get, massadd, massremove, massupdate, propagate, update), token.update, trigger.update, user (get, unblock, update).
+3. 4 ошибки в примерах:
+- *(повтор)* Невалидный json-файл examples/trend/get/0.json, ошибка: Illegal trailing comma before end of array: line 11 column 31 (char 292)
+- *(повтор)* Невалидный json-файл examples/itemprototype/update/2.json, ошибка: Expecting ',' delimiter: line 14 column 12 (char 380)
+- Невалидный json-файл examples/itemprototype/create/3.json, ошибка: Expecting ':' delimiter: line 20 column 32 (char 639)
+- *(повтор)* Невалидный json-файл examples/report/get/0.json, ошибка: Expecting ',' delimiter: line 5 column 24 (char 112)
+4. *(повтор)* Для метода user.checkauthentication нестандартный адрес в документации.

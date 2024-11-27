@@ -3,6 +3,14 @@
     "method": "host.create",
     "params": {
         "host": "Linux server",
+        "groups": [
+            {
+                "groupid": "50"
+            }
+        ],
+        "monitored_by": 1,
+        "proxy_groupid": 1,
+        "proxyid": 1,
         "interfaces": [
             {
                 "type": 1,
@@ -13,19 +21,14 @@
                 "port": "10050"
             }
         ],
-        "groups": [
-            {
-                "groupid": "50"
-            }
-        ],
         "tls_accept": 2,
         "tls_connect": 2,
         "tls_psk_identity": "PSK 001",
         "tls_psk": "1f87b595725ac58dd977beef14b97461a7c1045b9a1c963065002c5473194952",
         "tags": [
             {
-                "tag": "Host name",
-                "value": "Linux server"
+                "tag": "host-name",
+                "value": "linux-server"
             }
         ],
         "templates": [
@@ -50,6 +53,6 @@
             "macaddress_b": "56768"
         }
     },
-    "auth": "038e1d7b1735c6a5436ee9eae095879e",
+    "auth": null,
     "id": 1
 }

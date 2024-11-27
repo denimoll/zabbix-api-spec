@@ -1,0 +1,12 @@
+{
+           "jsonrpc": "2.0",
+           "method": "discoveryrule.update",
+           "params": {
+               "itemid": "46864",
+               "lifetime_type": 0, 
+               "lifetime": "7d",
+               "enabled_lifetime_type": 0,
+               "enabled_lifetime": "12h"
+           },
+           "id": 1
+       }

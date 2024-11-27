@@ -10,7 +10,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 def get_api_list(url):
     response = requests.get(url, verify=False)
     tree = html.fromstring(response.content)
-    api_list_from_tree = tree.xpath("/html/body/div[1]/div/div[2]/div[1]/div[1]/div/div/div[2]/div[33]/div[2]//a/text()")
+    api_list_from_tree = tree.xpath("/html/body/div[1]/div/div[2]/div[1]/div[1]/div/div/div[2]/div[36]/div[2]//a/text()")
     api_list = []
     for method in api_list_from_tree:
         if len(method.split('.')) != 1:
@@ -20,12 +20,11 @@ def get_api_list(url):
 def get_api_example(url):
     response = requests.get(url, verify=False)
     tree = html.fromstring(response.content)
-    print(str(response).find("Request:"))
-    return tree.xpath("//p[contains(text(), 'Request:')]/following-sibling::div[1]/pre") # может меняться путь
+    return tree.xpath("//p/a[contains(text(), 'Request')]/parent::p/following-sibling::div[1]/pre")
 
 
 # Основная часть программы
-zabbix_version = "6.0"
+zabbix_version = "7.0"
 url = "https://www.zabbix.com/documentation/%s/en/manual/api/reference" % zabbix_version
 path = "examples"
 if not os.path.exists(path):
