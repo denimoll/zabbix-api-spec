@@ -5,7 +5,7 @@
                "output": [
                    "triggerid",
                    "description"
-               ]
+               ],
                "selectTags": "extend",
                "triggerids": [
                    "17373"

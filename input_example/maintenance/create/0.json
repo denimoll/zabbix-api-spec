@@ -22,7 +22,7 @@
                    {
                        "tag": "service",
                        "operator": "0",
-                       "value": "mysqld",
+                       "value": "mysqld"
                    },
                    {
                        "tag": "error",
