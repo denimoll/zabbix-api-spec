@@ -3,10 +3,6 @@
     "method": "auditlog.get",
     "params": {
         "output": "extend",
-        "search": {
-            "newvalue": "test"
-        },
-        "selectDetails": "extend",
         "sortfield": "clock",
         "sortorder": "DESC",
         "limit": 2

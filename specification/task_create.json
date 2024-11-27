@@ -3,7 +3,7 @@
     "method": "task.create",
     "params": [
         {
-            "type": "6",
+            "type": 6,
             "request": {
                 "itemid": "10092"
             }

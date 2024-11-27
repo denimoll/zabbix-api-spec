@@ -2,13 +2,22 @@
     "jsonrpc": "2.0",
     "method": "itemprototype.create",
     "params": {
-        "type": "18",
-        "hostid": "10197",
-        "ruleid": "27665",
-        "interfaceid": "112",
         "name": "Free disk space on {#FSNAME}",
         "key_": "vfs.fs.size[{#FSNAME},free]",
+        "hostid": "10197",
+        "type": 18,
         "value_type": 3,
+        "params": "var request = new CurlHttpRequest();\nreturn request.Post(\"https://postman-echo.com/post\", JSON.parse(value));",
+        "parameters": [
+            {
+                "name": "host",
+                "value": "{HOST.CONN}"
+            }
+        ],
+        "timeout": "6s",
+        "delay": "30s",
+        "ruleid": "27665",
+        "interfaceid": "112",
         "url": "{$URL_PROTOTYPE}",
         "query_fields": [
             {
@@ -21,20 +30,19 @@
         "headers": {
             "X-Source": "api"
         },
-        "delay": "30s",
         "master_itemid": "44211",
         "units": "bps",
         "preprocessing": [
             {
-                "type": "10",
+                "type": 10,
                 "params": "",
-                "error_handler": "0",
+                "error_handler": 0,
                 "error_handler_params": ""
             },
             {
-                "type": "1",
+                "type": 1,
                 "params": "8",
-                "error_handler": "2",
+                "error_handler": 2,
                 "error_handler_params": "10"
             }
         ]

@@ -4,7 +4,7 @@
            "params": {
                "hostids": "10257",
                "filter": {
-                   "type": "19",
+                   "type": 19,
                    "url": "http://127.0.0.1/discoverer.php"
                }
            },

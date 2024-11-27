@@ -3,9 +3,8 @@
            "method": "host.get",
            "params": {
                "output": ["name"],
-               "hostids": 10502,
-               "selectTags": ["tag", "value"],
-               "selectInheritedTags": ["tag", "value"]
+               "tags": [{"tag": "A", "value": "1", "operator": "0"}],
+               "inheritedTags": true
            },
            "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1

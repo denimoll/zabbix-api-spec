@@ -7,12 +7,12 @@
                        "templateid": "10073"
                    }
                ],
-               "hosts": [
+               "templates_link": [
                    {
-                       "hostid": "10106"
+                       "templateid": "10106"
                    },
                    {
-                       "hostid": "10104"
+                       "templateid": "10104"
                    }
                ]
            },

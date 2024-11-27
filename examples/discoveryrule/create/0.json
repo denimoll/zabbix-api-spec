@@ -5,7 +5,7 @@
                "name": "Mounted filesystem discovery",
                "key_": "vfs.fs.discovery",
                "hostid": "10197",
-               "type": "0",
+               "type": 0,
                "interfaceid": "112",
                "delay": "30s"
            },

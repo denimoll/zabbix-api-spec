@@ -4,8 +4,8 @@
            "params": {
                "hostids": "10255",
                "filter": {
-                   "type": "19",
-                   "post_type": "3"
+                   "type": 19,
+                   "post_type": 3
                }
            },
            "id": 3,

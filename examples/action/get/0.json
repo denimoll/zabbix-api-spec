@@ -5,7 +5,7 @@
                "output": "extend",
                "selectOperations": "extend",
                "selectRecoveryOperations": "extend",
-               "selectAcknowledgeOperations": "extend",
+               "selectUpdateOperations": "extend",
                "selectFilter": "extend",
                "filter": {
                    "eventsource": 0

@@ -3,7 +3,7 @@
            "method": "template.massremove",
            "params": {
                "templateids": "10085",
-               "hostids": [
+               "templateids_link": [
                    "10106",
                    "10104"
                ]

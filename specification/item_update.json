@@ -3,15 +3,17 @@
     "method": "item.update",
     "params": {
         "itemid": "10092",
+        "parameters": [],
+        "script": "Zabbix.Log(3, 'Log test');\nreturn 1;",
         "preprocessing": [
             {
-                "type": "13",
+                "type": 13,
                 "params": "\n100",
-                "error_handler": "1",
+                "error_handler": 1,
                 "error_handler_params": ""
             }
         ],
-        "allow_traps": "1",
+        "allow_traps": 1,
         "name": "Dependent item updated name",
         "master_itemid": "25562",
         "status": 0

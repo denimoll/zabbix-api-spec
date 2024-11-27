@@ -5,7 +5,7 @@
                "name": "Filtered LLD rule",
                "key_": "lld",
                "hostid": "10116",
-               "type": "0",
+               "type": 0,
                "interfaceid": "13",
                "delay": "30s",
                "filter": {
@@ -17,11 +17,18 @@
                        },
                        {
                            "macro": "{#MACRO2}",
-                           "value": "@regex2"
+                           "value": "@regex2",
+                           "operator": "9"
                        },
                        {
                            "macro": "{#MACRO3}",
-                           "value": "@regex3"
+                           "value": "",
+                           "operator": "12"
+                       },
+                       {
+                           "macro": "{#MACRO4}",
+                           "value": "",
+                           "operator": "13"
                        }
                    ]
                }

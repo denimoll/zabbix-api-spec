@@ -9,22 +9,24 @@
                    "conditions": [
                        {
                            "conditiontype": 21,
+                           "operator": 0,
                            "value": "1"
                        },
                        {
                            "conditiontype": 10,
+                           "operator": 0,
                            "value": "2"
                        }
                    ]
                },
                "operations": [
                    {
+                       "operationtype": 6,
                        "optemplate": [
                            {
                                "templateid": "10001"
                            }
-                       ],
-                       "operationtype": 6
+                       ]
                    }
                ]
            },

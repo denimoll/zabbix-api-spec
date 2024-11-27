@@ -4,11 +4,11 @@
            "params": {
                "type": "19",
                "hostid": "10254",
-               "ruleid":"28256",
-               "interfaceid":"2",
+               "ruleid": "28256",
+               "interfaceid": "2",
                "name": "api item prototype example",
                "key_": "api_http_item",
-               "value_type": "3",
+               "value_type": 3,
                "url": "{$URL_PROTOTYPE}",
                "query_fields": [
                    {
@@ -21,7 +21,7 @@
                "headers": {
                    "X-Source": "api"
                },
-               "delay":"35"
+               "delay": "35"
            },
            "auth": "038e1d7b1735c6a5436ee9eae095879e",
            "id": 1

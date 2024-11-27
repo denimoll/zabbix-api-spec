@@ -6,12 +6,13 @@
         "selectPreprocessing": "extend",
         "hostids": "10084",
         "filter": {
-            "type": "18",
-            "post_type": "3"
+            "type": 18,
+            "post_type": 3
         },
         "search": {
-            "key_": "system"
+            "key_": "system.cpu"
         },
+        "with_triggers": true,
         "sortfield": "name"
     },
     "auth": "038e1d7b1735c6a5436ee9eae095879e",

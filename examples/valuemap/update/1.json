@@ -5,10 +5,12 @@
                "valuemapid": "2",
                "mappings": [
                    {
+                       "type": "0",
                        "value": "0",
                        "newvalue": "Online"
                    },
                    {
+                       "type": "0",
                        "value": "1",
                        "newvalue": "Offline"
                    }

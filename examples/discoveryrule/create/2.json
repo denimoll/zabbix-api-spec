@@ -5,7 +5,7 @@
                "name": "LLD rule with LLD macro paths",
                "key_": "lld",
                "hostid": "10116",
-               "type": "0",
+               "type": 0,
                "interfaceid": "13",
                "delay": "30s",
                "lld_macro_paths": [

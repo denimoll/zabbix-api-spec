@@ -17,6 +17,7 @@ def recurs_merge(dictionary1, dictionary2):
 def create_common_json(path_examples, path_commons):
     files = glob.glob("%s/*.json" % path_examples)
     filename = path_examples.split('/')[1] + '_' + path_examples.split('/')[2]
+    print(filename)
     if (len(files) < 2):
         with open(files[0], 'r') as f1:
             with open("%s/%s.json" % (path_commons, filename), 'w', encoding="utf-8") as f2:

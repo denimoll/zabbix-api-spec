@@ -8,9 +8,14 @@
                "type": 0,
                "value_type": 3,
                "interfaceid": "30084",
-               "applications": [
-                   "609",
-                   "610"
+               "tags": [
+                   {
+                       "tag": "Disk usage"
+                   },
+                   {
+                       "tag": "Equipment",
+                       "value": "Workstation"
+                   }
                ],
                "delay": "30s"
            },

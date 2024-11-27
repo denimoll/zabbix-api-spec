@@ -15,7 +15,7 @@
                        {
                            "conditiontype": "24",
                            "operator": "2",
-                           "value": "CentOS"
+                           "value": "AlmaLinux"
                        }
                    ]
                },

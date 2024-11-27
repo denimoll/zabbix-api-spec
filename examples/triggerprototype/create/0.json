@@ -3,7 +3,7 @@
            "method": "triggerprototype.create",
            "params": {
                "description": "Free disk space is less than 20% on volume {#FSNAME}",
-               "expression": "{Zabbix server:vfs.fs.size[{#FSNAME},pfree].last()}<20",
+               "expression": "last(/Zabbix server/vfs.fs.size[{#FSNAME},pfree])<20",
                "tags": [
                    {
                        "tag": "volume",
