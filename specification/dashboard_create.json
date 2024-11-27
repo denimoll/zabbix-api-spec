@@ -8,8 +8,9 @@
                 "type": "problems",
                 "x": 0,
                 "y": 0,
-                "width": 6,
+                "width": 12,
                 "height": 5,
+                "view_mode": 0,
                 "fields": [
                     {
                         "type": 1,

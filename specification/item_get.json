@@ -2,12 +2,13 @@
     "jsonrpc": "2.0",
     "method": "item.get",
     "params": {
+        "output": "extend",
+        "selectPreprocessing": "extend",
         "hostids": "10084",
         "filter": {
             "type": "18",
             "post_type": "3"
         },
-        "output": "extend",
         "search": {
             "key_": "system"
         },

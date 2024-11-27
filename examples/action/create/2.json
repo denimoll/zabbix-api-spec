@@ -5,8 +5,6 @@
                "name": "Trigger action",
                "eventsource": 0,
                "esc_period": "15m",
-               "def_shortdata": "{TRIGGER.NAME}: {TRIGGER.STATUS}",
-               "def_longdata": "{TRIGGER.NAME}: {TRIGGER.STATUS}\r\nLast value: {ITEM.LASTVALUE}\r\n\r\n{TRIGGER.URL}",
                "filter": {
                    "evaltype": 3,
                    "formula": "A and (B or C)",

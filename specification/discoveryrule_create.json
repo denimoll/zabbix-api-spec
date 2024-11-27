@@ -2,13 +2,21 @@
     "jsonrpc": "2.0",
     "method": "discoveryrule.create",
     "params": {
-        "hostid": "10197",
-        "interfaceid": "112",
+        "name": "Discover database host",
+        "key_": "lld.with.overrides",
+        "hostid": "10001",
         "type": "0",
-        "name": "Mounted filesystem discovery",
-        "key_": "vfs.fs.discovery",
-        "value_type": "3",
-        "delay": "30s",
+        "value_type": 3,
+        "delay": "60s",
+        "interfaceid": "1155",
+        "preprocessing": [
+            {
+                "type": "20",
+                "params": "20",
+                "error_handler": "0",
+                "error_handler_params": ""
+            }
+        ],
         "url": "http://127.0.0.1?discoverer.php",
         "query_fields": [
             {
@@ -43,7 +51,84 @@
                     "value": "@regex3"
                 }
             ]
-        }
+        },
+        "lld_macro_paths": [
+            {
+                "lld_macro": "{#MACRO1}",
+                "path": "$.path.1"
+            },
+            {
+                "lld_macro": "{#MACRO2}",
+                "path": "$.path.2"
+            }
+        ],
+        "overrides": [
+            {
+                "name": "Discover MySQL host",
+                "step": "1",
+                "stop": "1",
+                "filter": {
+                    "evaltype": "2",
+                    "conditions": [
+                        {
+                            "macro": "{#UNIT.NAME}",
+                            "operator": "8",
+                            "value": "^mysqld\\.service$"
+                        },
+                        {
+                            "macro": "{#UNIT.NAME}",
+                            "operator": "8",
+                            "value": "^mariadb\\.service$"
+                        }
+                    ]
+                },
+                "operations": [
+                    {
+                        "operationobject": "3",
+                        "operator": "2",
+                        "value": "Database host",
+                        "opstatus": {
+                            "status": "0"
+                        },
+                        "optemplate": [
+                            {
+                                "templateid": "10170"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Discover PostgreSQL host",
+                "step": "2",
+                "stop": "1",
+                "filter": {
+                    "evaltype": "0",
+                    "conditions": [
+                        {
+                            "macro": "{#UNIT.NAME}",
+                            "operator": "8",
+                            "value": "^postgresql\\.service$"
+                        }
+                    ]
+                },
+                "operations": [
+                    {
+                        "operationobject": "3",
+                        "operator": "2",
+                        "value": "Database host",
+                        "opstatus": {
+                            "status": "0"
+                        },
+                        "optemplate": [
+                            {
+                                "templateid": "10263"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     "auth": "038e1d7b1735c6a5436ee9eae095879e",
     "id": 1

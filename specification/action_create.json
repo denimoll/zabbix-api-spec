@@ -4,12 +4,8 @@
     "params": {
         "name": "Trigger action",
         "eventsource": 1,
-        "esc_period": "30m",
-        "def_shortdata": "{TRIGGER.NAME}: {TRIGGER.STATUS}",
-        "def_longdata": "{TRIGGER.NAME}: {TRIGGER.STATUS}\r\nLast value: {ITEM.LASTVALUE}\r\n\r\n{TRIGGER.URL}",
         "filter": {
             "evaltype": 3,
-            "formula": "A and (B or C)",
             "conditions": [
                 {
                     "conditiontype": 1,
@@ -21,7 +17,8 @@
                     "operator": 2,
                     "value": "memory"
                 }
-            ]
+            ],
+            "formula": "A and (B or C)"
         },
         "operations": [
             {
@@ -60,6 +57,7 @@
                 }
             }
         ],
+        "esc_period": "30m",
         "recovery_operations": [
             {
                 "operationtype": "11",
@@ -72,6 +70,7 @@
             {
                 "operationtype": "12",
                 "opmessage": {
+                    "default_msg": 0,
                     "message": "Custom update operation message body",
                     "subject": "Custom update operation message subject"
                 }

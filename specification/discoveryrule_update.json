@@ -3,7 +3,21 @@
     "method": "discoveryrule.update",
     "params": {
         "itemid": "22450",
+        "preprocessing": [
+            {
+                "type": "12",
+                "params": "$.path.to.json",
+                "error_handler": "2",
+                "error_handler_params": "5"
+            }
+        ],
         "allow_traps": "0",
+        "lld_macro_paths": [
+            {
+                "lld_macro": "{#MACRO1}",
+                "path": "$.json.path"
+            }
+        ],
         "filter": {
             "evaltype": 1,
             "conditions": [

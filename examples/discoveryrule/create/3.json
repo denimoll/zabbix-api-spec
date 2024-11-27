@@ -2,29 +2,39 @@
            "jsonrpc": "2.0",
            "method": "discoveryrule.create",
            "params": {
-               "hostid": "10257",
-               "interfaceid": "5",
-               "type": "19",
-               "name": "API HTTP agent",
-               "key_": "api_discovery_rule",
-               "value_type": "3",
-               "delay": "5s",
-               "url": "http://127.0.0.1?discoverer.php",
-               "query_fields": [
-                   {
-                       "mode": "json"
-                   },
-                   {
-                       "elements":"2"
-                   }
-               ],
-               "headers": {
-                   "X-Type": "api",
-                   "Authorization": "Bearer mF_A.B5f-2.1JcM"
-               },
-               "allow_traps": "1",
-               "trapper_hosts": "127.0.0.1",
-               "id": 35,
-               "auth": "d678e0b85688ce578ff061bd29a20d3b"
-           }
+               "name": "Filtered LLD rule",
+               "key_": "lld",
+               "hostid": "10116",
+               "type": "0",
+               "interfaceid": "13",
+               "delay": "30s",
+               "filter": {
+                   "evaltype": 3,
+                   "formula": "(A and B) and (C or D)",
+                   "conditions": [
+                       {
+                           "macro": "{#MACRO1}",
+                           "value": "@regex1",
+                           "formulaid": "A"
+                       },
+                       {
+                           "macro": "{#MACRO1}",
+                           "value": "@regex2",
+                           "formulaid": "B"
+                       },
+                       {
+                           "macro": "{#MACRO2}",
+                           "value": "@regex3",
+                           "formulaid": "C"
+                       },
+                       {
+                           "macro": "{#MACRO2}",
+                           "value": "@regex4",
+                           "formulaid": "D"
+                       }
+                   ]
+               }
+           },
+           "auth": "038e1d7b1735c6a5436ee9eae095879e",
+           "id": 1
        }

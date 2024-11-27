@@ -17,7 +17,8 @@
                    },
                    {
                        "macro": "{$TEST2}",
-                       "value": "MACROTEST2"
+                       "value": "MACROTEST2",
+                       "description": "Test description"
                    }
                ]
            },

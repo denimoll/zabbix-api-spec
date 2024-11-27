@@ -18,6 +18,16 @@
                 "groupid": "50"
             }
         ],
+        "tls_accept": 2,
+        "tls_connect": 2,
+        "tls_psk_identity": "PSK 001",
+        "tls_psk": "1f87b595725ac58dd977beef14b97461a7c1045b9a1c963065002c5473194952",
+        "tags": [
+            {
+                "tag": "Host name",
+                "value": "Linux server"
+            }
+        ],
         "templates": [
             {
                 "templateid": "20045"
@@ -27,6 +37,11 @@
             {
                 "macro": "{$USER_ID}",
                 "value": "123321"
+            },
+            {
+                "macro": "{$USER_LOCATION}",
+                "value": "0:0:0",
+                "description": "latitude, longitude and altitude coordinates"
             }
         ],
         "inventory_mode": 0,

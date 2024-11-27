@@ -3,6 +3,15 @@
     "method": "template.get",
     "params": {
         "output": "extend",
+        "selectTags": "extend",
+        "evaltype": 0,
+        "tags": [
+            {
+                "tag": "Host name",
+                "value": "{HOST.NAME}",
+                "operator": 1
+            }
+        ],
         "filter": {
             "host": [
                 "Template OS Linux",

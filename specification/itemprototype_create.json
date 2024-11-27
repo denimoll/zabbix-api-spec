@@ -27,11 +27,15 @@
         "preprocessing": [
             {
                 "type": "10",
-                "params": ""
+                "params": "",
+                "error_handler": "0",
+                "error_handler_params": ""
             },
             {
                 "type": "1",
-                "params": "8"
+                "params": "8",
+                "error_handler": "2",
+                "error_handler_params": "10"
             }
         ]
     },

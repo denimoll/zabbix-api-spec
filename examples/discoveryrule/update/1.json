@@ -2,9 +2,14 @@
            "jsonrpc": "2.0",
            "method": "discoveryrule.update",
            "params": {
-               "itemid": "28336",
-               "allow_traps": "0"
+               "itemid": "22450",
+               "lld_macro_paths": [
+                   {
+                       "lld_macro": "{#MACRO1}",
+                       "path": "$.json.path"
+                   }
+               ]
            },
-           "id": 36,
-           "auth": "d678e0b85688ce578ff061bd29a20d3b"
+           "auth": "038e1d7b1735c6a5436ee9eae095879e",
+           "id": 1
        }

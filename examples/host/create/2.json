@@ -1,0 +1,28 @@
+{
+           "jsonrpc": "2.0",
+           "method": "host.create",
+           "params": {
+               "host": "PSK host",
+               "interfaces": [
+                   {
+                       "type": 1,
+                       "ip": "192.168.3.1",
+                       "dns": "",
+                       "port": "10050",
+                       "useip": 1,
+                       "main": 1
+                   }
+               ],
+               "groups": [
+                   {
+                       "groupid": "2"
+                   }
+               ],
+               "tls_accept": 2,
+               "tls_connect": 2,
+               "tls_psk_identity": "PSK 001",
+               "tls_psk": "1f87b595725ac58dd977beef14b97461a7c1045b9a1c963065002c5473194952"
+           },
+           "auth": "038e1d7b1735c6a5436ee9eae095879e",
+           "id": 1
+       }

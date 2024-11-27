@@ -3,12 +3,17 @@
     "method": "hostinterface.create",
     "params": {
         "hostid": "30052",
-        "dns": "",
+        "main": "0",
+        "type": "1",
+        "useip": "1",
         "ip": "127.0.0.1",
-        "main": 0,
+        "dns": "",
         "port": "10050",
-        "type": 1,
-        "useip": 1
+        "details": {
+            "version": "2",
+            "bulk": "1",
+            "community": "{$SNMP_COMMUNITY}"
+        }
     },
     "auth": "038e1d7b1735c6a5436ee9eae095879e",
     "id": 1
