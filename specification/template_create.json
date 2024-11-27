@@ -13,6 +13,12 @@
             {
                 "hostid": "10090"
             }
+        ],
+        "tags": [
+            {
+                "tag": "Host name",
+                "value": "{HOST.NAME}"
+            }
         ]
     },
     "auth": "038e1d7b1735c6a5436ee9eae095879e",

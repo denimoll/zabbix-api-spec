@@ -1,0 +1,28 @@
+{
+    "jsonrpc": "2.0",
+    "method": "task.create",
+    "params": [
+        {
+            "type": "1",
+            "request": {
+                "alerting": {
+                    "stats": [
+                        "alerts"
+                    ],
+                    "top": {
+                        "media.alerts": 10
+                    }
+                },
+                "lld": {
+                    "stats": "extend",
+                    "top": {
+                        "values": 5
+                    }
+                }
+            },
+            "proxy_hostid": 0
+        }
+    ],
+    "auth": "700ca65537074ec963db7efabda78259",
+    "id": 2
+}

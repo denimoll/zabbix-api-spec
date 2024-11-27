@@ -10,7 +10,8 @@
                    },
                    {
                        "macro": "{$DISC}",
-                       "value": "sda"
+                       "value": "sda",
+                       "description": "Updated description"
                    }
                ]
            },

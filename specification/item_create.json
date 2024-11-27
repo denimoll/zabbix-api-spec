@@ -25,11 +25,12 @@
         "preprocessing": [
             {
                 "type": "1",
-                "params": "0.01"
+                "params": "0.01",
+                "error_handler": "1",
+                "error_handler_params": ""
             }
         ],
         "master_itemid": "24759",
-        "snmp_community": "{$SNMP_COMMUNITY}",
         "snmp_oid": "SNMPv2-MIB::sysUpTime.0",
         "units": "uptime",
         "inventory_link": 5,

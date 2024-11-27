@@ -3,6 +3,14 @@
     "method": "itemprototype.update",
     "params": {
         "itemid": "27428",
+        "preprocessing": [
+            {
+                "type": "1",
+                "params": "4",
+                "error_handler": "2",
+                "error_handler_params": "5"
+            }
+        ],
         "query_fields": [
             {
                 "random": "qwertyuiopasdfghjklzxcvbnm"

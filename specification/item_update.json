@@ -3,6 +3,14 @@
     "method": "item.update",
     "params": {
         "itemid": "10092",
+        "preprocessing": [
+            {
+                "type": "13",
+                "params": "\n100",
+                "error_handler": "1",
+                "error_handler_params": ""
+            }
+        ],
         "allow_traps": "1",
         "name": "Dependent item updated name",
         "master_itemid": "25562",

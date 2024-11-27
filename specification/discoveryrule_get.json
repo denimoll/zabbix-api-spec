@@ -2,16 +2,23 @@
     "jsonrpc": "2.0",
     "method": "discoveryrule.get",
     "params": {
+        "output": "extend",
+        "itemids": [
+            "24681"
+        ],
+        "selectOverrides": [
+            "name",
+            "step",
+            "stop",
+            "filter",
+            "operations"
+        ],
         "hostids": "10202",
         "filter": {
             "type": "19",
             "url": "http://127.0.0.1/discoverer.php"
         },
-        "output": "extend",
-        "selectFilter": "extend",
-        "itemids": [
-            "24681"
-        ]
+        "selectFilter": "extend"
     },
     "auth": "038e1d7b1735c6a5436ee9eae095879e",
     "id": 1
