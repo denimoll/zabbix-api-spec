@@ -1,0 +1,25 @@
+{
+    "jsonrpc": "2.0",
+    "method": "template.create",
+    "params": {
+        "host": "Linux template",
+        "groups": {
+            "groupid": 1
+        },
+        "templates": [
+            {
+                "templateid": "11115"
+            },
+            {
+                "templateid": "11116"
+            }
+        ],
+        "tags": [
+            {
+                "tag": "host-name",
+                "value": "{HOST.NAME}"
+            }
+        ]
+    },
+    "id": 1
+}

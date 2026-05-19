@@ -1,0 +1,29 @@
+{
+    "params": {
+        "output": "extend",
+        "filter": {
+            "host": [
+                "Linux",
+                "Windows"
+            ]
+        },
+        "selectTemplateGroups": "extend",
+        "templateids": "10001",
+        "selectHosts": [
+            "hostid",
+            "name"
+        ],
+        "selectTags": "extend",
+        "evaltype": 0,
+        "tags": [
+            {
+                "tag": "host-name",
+                "value": "{HOST.NAME}",
+                "operator": 1
+            }
+        ]
+    },
+    "jsonrpc": "2.0",
+    "method": "template.get",
+    "id": 1
+}

@@ -1,0 +1,15 @@
+{
+    "jsonrpc": "2.0",
+    "method": "item.get",
+    "params": {
+        "output": "extend",
+        "hostids": "10116",
+        "search": {
+            "key_": "apache"
+        },
+        "filter": {
+            "type": 18
+        }
+    },
+    "id": 1
+}

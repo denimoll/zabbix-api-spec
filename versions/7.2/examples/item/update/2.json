@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "item.update",
+    "params": {
+        "itemid": "23856",
+        "allow_traps": 1
+    },
+    "id": 1
+}

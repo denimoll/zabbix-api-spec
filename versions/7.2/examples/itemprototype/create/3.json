@@ -1,0 +1,32 @@
+{
+    "jsonrpc": "2.0",
+    "method": "itemprototype.create",
+    "params": {
+        "type": "19",
+        "hostid": "10254",
+        "ruleid": "28256",
+        "interfaceid": "2",
+        "name": "api item prototype example",
+        "key_": "api_http_item",
+        "value_type": 3,
+        "url": "{$URL_PROTOTYPE}",
+        "query_fields": [
+            {
+                "name": "min",
+                "value": "10"
+            },
+            {
+                "name": "max",
+                "value" "100"
+            }
+        ],
+        "headers": [
+            {
+                "name": "X-Source",
+                "value": "api"
+            }
+        ],
+        "delay": "35"
+    },
+    "id": 1
+}

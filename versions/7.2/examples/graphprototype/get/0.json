@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "graphprototype.get",
+    "params": {
+        "output": "extend",
+        "discoveryids": "27426"
+    },
+    "id": 1
+}

@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "image.get",
+    "params": {
+        "output": "extend",
+        "select_image": true,
+        "imageids": "2"
+    },
+    "id": 1
+}

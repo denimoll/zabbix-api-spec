@@ -1,0 +1,16 @@
+{
+    "params": {
+        "output": "extend",
+        "discoveryids": "27426",
+        "filter": {
+            "type": 18,
+            "master_itemid": "25545",
+            "request_method": 3
+        },
+        "limit": "1",
+        "hostids": "10254"
+    },
+    "jsonrpc": "2.0",
+    "method": "itemprototype.get",
+    "id": 1
+}

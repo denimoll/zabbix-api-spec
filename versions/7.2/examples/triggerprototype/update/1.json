@@ -1,0 +1,18 @@
+{
+    "jsonrpc": "2.0",
+    "method": "triggerprototype.update",
+    "params": {
+        "triggerid": "17373",
+        "tags": [
+            {
+                "tag": "volume",
+                "value": "{#FSNAME}"
+            },
+            {
+                "tag": "type",
+                "value": "{#FSTYPE}"
+            }
+        ]
+    },
+    "id": 1
+}

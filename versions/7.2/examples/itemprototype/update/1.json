@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "itemprototype.update",
+    "params": {
+        "master_itemid": "25570",
+        "itemid": "189030"
+    },
+    "id": 1
+}

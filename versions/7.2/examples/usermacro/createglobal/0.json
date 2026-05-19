@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "usermacro.createglobal",
+    "params":  {
+        "macro": "{$SNMP_COMMUNITY}",
+        "value": "public"
+    },
+    "id": 1
+}

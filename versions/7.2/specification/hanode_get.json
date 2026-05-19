@@ -1,0 +1,27 @@
+{
+    "params": {
+        "preservekeys": true,
+        "sortfield": "status",
+        "sortorder": "DESC",
+        "ha_nodeids": [
+            "ckuo7i1nw000e0sajwfttc1mp",
+            "ckuo7i1nv000c0sajz85xcrtt"
+        ],
+        "output": [
+            "ha_nodeid",
+            "address",
+            "port"
+        ],
+        "filter": {
+            "status": 1,
+            "address": [
+                "192.168.1.7",
+                "192.168.1.13"
+            ]
+        },
+        "countOutput": true
+    },
+    "jsonrpc": "2.0",
+    "method": "hanode.get",
+    "id": 1
+}

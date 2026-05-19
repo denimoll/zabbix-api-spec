@@ -1,0 +1,21 @@
+{
+    "jsonrpc": "2.0",
+    "method": "connector.create",
+    "params": [
+        {
+            "name": "Export of events",
+            "data_type": 1,
+            "url": "{$DATA_EXPORT_URL}",
+            "authtype": 5,
+            "token": "{$DATA_EXPORT_BEARER_TOKEN}",
+            "tags": [
+                {
+                    "tag": "service",
+                    "operator": 0,
+                    "value": "mysqld"
+                }
+            ]
+        }
+    ],
+    "id": 1
+}

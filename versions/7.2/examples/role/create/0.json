@@ -1,0 +1,21 @@
+{
+    "jsonrpc": "2.0",
+    "method": "role.create",
+    "params": {
+        "name": "Operator",
+        "type": "1",
+        "rules": {
+            "ui": [
+                {
+                    "name": "monitoring.hosts",
+                    "status": "0"
+                },
+                {
+                    "name": "monitoring.maps",
+                    "status": "0"
+                }
+            ]
+        }
+    },
+    "id": 1
+}

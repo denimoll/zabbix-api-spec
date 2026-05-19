@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "host.get",
+    "params": {
+        "output": ["name"],
+        "severities": 5
+    },
+    "id": 1
+}

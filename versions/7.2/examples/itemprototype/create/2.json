@@ -1,0 +1,14 @@
+{
+    "jsonrpc": "2.0",
+    "method": "itemprototype.create",
+    "params": {
+      "hostid": "10001",
+      "ruleid": "27665",
+      "name": "Dependent test item prototype",
+      "key_": "dependent.prototype",
+      "type": 18,
+      "master_itemid": "44211",
+      "value_type": 3
+    },
+    "id": 1
+}

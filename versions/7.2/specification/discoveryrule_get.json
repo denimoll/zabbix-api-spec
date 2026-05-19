@@ -1,0 +1,24 @@
+{
+    "params": {
+        "output": "extend",
+        "hostids": "10202",
+        "selectFilter": "extend",
+        "itemids": [
+            "24681"
+        ],
+        "filter": {
+            "type": 19,
+            "url": "http://127.0.0.1/discoverer.php"
+        },
+        "selectOverrides": [
+            "name",
+            "step",
+            "stop",
+            "filter",
+            "operations"
+        ]
+    },
+    "jsonrpc": "2.0",
+    "method": "discoveryrule.get",
+    "id": 1
+}

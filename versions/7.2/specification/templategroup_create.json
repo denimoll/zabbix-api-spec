@@ -1,0 +1,8 @@
+{
+    "jsonrpc": "2.0",
+    "method": "templategroup.create",
+    "params": {
+        "name": "Templates/Databases"
+    },
+    "id": 1
+}

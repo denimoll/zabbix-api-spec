@@ -1,0 +1,10 @@
+{
+    "params": {
+        "output": "extend",
+        "hostids": "10198",
+        "globalmacro": true
+    },
+    "jsonrpc": "2.0",
+    "method": "usermacro.get",
+    "id": 1
+}

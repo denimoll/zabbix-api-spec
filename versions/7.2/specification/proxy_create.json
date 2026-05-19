@@ -1,0 +1,17 @@
+{
+    "params": {
+        "name": "Active proxy",
+        "operating_mode": "0",
+        "hosts": [
+            {
+                "hostid": "10279"
+            }
+        ],
+        "address": "127.0.0.1",
+        "port": "10051",
+        "proxy_groupid": "1"
+    },
+    "jsonrpc": "2.0",
+    "method": "proxy.create",
+    "id": 1
+}

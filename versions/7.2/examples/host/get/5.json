@@ -1,0 +1,17 @@
+{
+    "jsonrpc": "2.0",
+    "method": "host.get",
+    "params": {
+        "output": ["hostid"],
+        "selectTags": "extend",
+        "evaltype": 0,
+        "tags": [
+            {
+                "tag": "host-name",
+                "value": "linux-server",
+                "operator": 1
+            }
+        ]
+    },
+    "id": 1
+}

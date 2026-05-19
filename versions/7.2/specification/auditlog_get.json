@@ -1,0 +1,11 @@
+{
+    "jsonrpc": "2.0",
+    "method": "auditlog.get",
+    "params": {
+        "output": "extend",
+        "sortfield": "clock",
+        "sortorder": "DESC",
+        "limit": 2
+    },
+    "id": 1
+}

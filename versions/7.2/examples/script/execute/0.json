@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "script.execute",
+    "params": {
+        "scriptid": "4",
+        "hostid": "30079"
+    },
+    "id": 1
+}

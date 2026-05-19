@@ -1,0 +1,25 @@
+{
+    "params": [
+        {
+            "slaid": "5",
+            "name": "NoSQL Database engines",
+            "slo": "95",
+            "period": 2,
+            "service_tags": [
+                {
+                    "tag": "database",
+                    "operator": "0",
+                    "value": "redis"
+                },
+                {
+                    "tag": "database",
+                    "operator": "0",
+                    "value": "mongodb"
+                }
+            ]
+        }
+    ],
+    "jsonrpc": "2.0",
+    "method": "sla.update",
+    "id": 1
+}

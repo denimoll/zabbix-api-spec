@@ -1,0 +1,20 @@
+{
+    "jsonrpc": "2.0",
+    "method": "template.massadd",
+    "params": {
+        "templates": [
+            {
+                "templateid": "10073"
+            }
+        ],
+        "templates_link": [
+            {
+                "templateid": "10106"
+            },
+            {
+                "templateid": "10104"
+            }
+        ]
+    },
+    "id": 1
+}

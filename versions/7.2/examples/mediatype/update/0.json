@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "mediatype.update",
+    "params": {
+        "mediatypeid": "6",
+        "status": "0"
+    },
+    "id": 1
+}

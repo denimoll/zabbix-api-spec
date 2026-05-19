@@ -1,0 +1,20 @@
+{
+    "jsonrpc": "2.0",
+    "method": "valuemap.create",
+    "params": {
+        "hostid": "50009",
+        "name": "Service state",
+        "mappings": [
+            {
+                "type": "1",
+                "value": "1",
+                "newvalue": "Up"
+            },
+            {
+                "type": "5",
+                "newvalue": "Down"
+            }
+        ]
+    },
+    "id": 1
+}

@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "script.update",
+    "params": {
+        "scriptid": "1",
+        "command": "/bin/ping -c 10 {HOST.CONN} 2>&1"
+    },
+    "id": 1
+}

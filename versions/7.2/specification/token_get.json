@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "token.get",
+    "params": {
+        "output": "extend",
+        "tokenids": "2"
+    },
+    "id": 1
+}

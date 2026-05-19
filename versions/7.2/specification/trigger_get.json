@@ -1,0 +1,16 @@
+{
+    "params": {
+        "triggerids": "14062",
+        "output": "extend",
+        "selectFunctions": "extend",
+        "filter": {
+            "value": 1
+        },
+        "sortfield": "priority",
+        "sortorder": "DESC",
+        "selectTags": "extend"
+    },
+    "jsonrpc": "2.0",
+    "method": "trigger.get",
+    "id": 1
+}

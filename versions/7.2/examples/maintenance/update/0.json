@@ -1,0 +1,12 @@
+{
+    "jsonrpc": "2.0",
+    "method": "maintenance.update",
+    "params": {
+        "maintenanceid": "3",
+        "hosts": [
+            {"hostid": "10085"},
+            {"hostid": "10084"}
+        ]
+    },
+    "id": 1
+}

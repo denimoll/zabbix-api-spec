@@ -1,0 +1,14 @@
+{
+    "jsonrpc": "2.0",
+    "method": "discoveryrule.update",
+    "params": {
+        "itemid": "22450",
+        "lld_macro_paths": [
+            {
+                "lld_macro": "{#MACRO1}",
+                "path": "$.json.path"
+            }
+        ]
+    },
+    "id": 1
+}

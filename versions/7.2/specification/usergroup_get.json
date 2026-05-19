@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "usergroup.get",
+    "params": {
+        "output": "extend",
+        "status": 0
+    },
+    "id": 1
+}
