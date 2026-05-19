@@ -1,0 +1,35 @@
+{
+    "params": {
+        "hostid": "10092",
+        "status": 1,
+        "tags": [
+            {
+                "tag": "datacenter",
+                "value": "{#DATACENTER.NAME}"
+            },
+            {
+                "tag": "instance-type",
+                "value": "{#INSTANCE_TYPE}"
+            }
+        ],
+        "custom_interfaces": "1",
+        "interfaces": [
+            {
+                "main": "1",
+                "type": "2",
+                "useip": "1",
+                "ip": "127.0.0.1",
+                "dns": "",
+                "port": "161",
+                "details": {
+                    "version": "2",
+                    "bulk": "1",
+                    "community": "{$SNMP_COMMUNITY}"
+                }
+            }
+        ]
+    },
+    "jsonrpc": "2.0",
+    "method": "hostprototype.update",
+    "id": 1
+}

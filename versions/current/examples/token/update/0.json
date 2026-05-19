@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "token.update",
+    "params": {
+        "tokenid": "2",
+        "expires_at": "0"
+    },
+    "id": 1
+}

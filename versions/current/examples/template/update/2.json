@@ -1,0 +1,14 @@
+{
+    "jsonrpc": "2.0",
+    "method": "template.update",
+    "params": {
+        "templateid": "10086",
+        "tags": [
+            {
+                "tag": "host-name",
+                "value": "{HOST.NAME}"
+            }
+        ]
+    },
+    "id": 1
+}

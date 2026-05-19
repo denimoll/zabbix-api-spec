@@ -1,0 +1,14 @@
+{
+    "jsonrpc": "2.0",
+    "method": "host.get",
+    "params": {
+        "output": ["hostid"],
+        "selectItems": ["itemid","name","status"],
+        "filter": {
+            "host": [
+                "Zabbix server"
+            ]
+        }
+    },
+    "id": 1
+}

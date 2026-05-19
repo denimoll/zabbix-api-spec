@@ -1,0 +1,27 @@
+{
+    "params": {
+        "triggerid": "13938",
+        "status": 0,
+        "tags": [
+            {
+                "tag": "service",
+                "value": "{{ITEM.VALUE}.regsub(\"Service (.*) has stopped\", \"\\1\")}"
+            },
+            {
+                "tag": "error",
+                "value": ""
+            }
+        ],
+        "dependencies": [
+            {
+                "triggerid": "22712"
+            },
+            {
+                "triggerid": "22772"
+            }
+        ]
+    },
+    "jsonrpc": "2.0",
+    "method": "trigger.update",
+    "id": 1
+}

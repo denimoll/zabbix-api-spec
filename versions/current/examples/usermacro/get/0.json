@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "usermacro.get",
+    "params": {
+        "output": "extend",
+        "hostids": "10198"
+    },
+    "id": 1
+}

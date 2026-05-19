@@ -1,0 +1,20 @@
+{
+    "params": {
+        "itemid": "27428",
+        "interfaceid": "132",
+        "master_itemid": "25570",
+        "preprocessing": [
+            {
+                "type": 1,
+                "params": "4",
+                "error_handler": 2,
+                "error_handler_params": "5"
+            }
+        ],
+        "parameters": [],
+        "script": "Zabbix.log(3, 'Log test');\nreturn 1;"
+    },
+    "jsonrpc": "2.0",
+    "method": "itemprototype.update",
+    "id": 1
+}

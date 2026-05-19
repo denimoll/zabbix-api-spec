@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "dashboard.update",
+    "params": {
+        "dashboardid": "2",
+        "userid": "1"
+    },
+    "id": 1
+}

@@ -1,0 +1,27 @@
+{
+    "jsonrpc": "2.0",
+    "method": "history.push",
+    "params": [
+        {
+            "itemid": 10600,
+            "value": 0.5,
+            "clock": 1690891294,
+            "ns": 45440940
+        },
+        {
+            "itemid": 10600,
+            "value": 0.6,
+            "clock": 1690891295,
+            "ns": 312431
+        },
+        {
+            "itemid": 10601,
+            "value": "[Tue Aug 01 15:01:35 2023] [error] [client 1.2.3.4] File does not exist: /var/www/html/robots.txt"
+        },
+        {
+            "itemid": 999999,
+            "value": 123
+        }
+    ],
+    "id": 1
+}

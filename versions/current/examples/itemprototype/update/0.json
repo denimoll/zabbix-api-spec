@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "itemprototype.update",
+    "params": {
+        "itemid": "27428",
+        "interfaceid": "132"
+    },
+    "id": 1
+}

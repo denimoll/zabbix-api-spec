@@ -1,0 +1,13 @@
+{
+    "jsonrpc": "2.0",
+    "method": "item.get",
+    "params": {
+        "output": "extend",
+        "filter": {
+            "type": 18,
+            "master_itemid": "25545"
+        },
+        "limit": "1"
+    },
+    "id": 1
+}

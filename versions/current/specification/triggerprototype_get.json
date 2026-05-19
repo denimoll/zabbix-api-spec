@@ -1,0 +1,14 @@
+{
+    "params": {
+        "output": "extend",
+        "selectFunctions": "extend",
+        "discoveryids": "22450",
+        "selectTags": "extend",
+        "triggerids": [
+            "17373"
+        ]
+    },
+    "jsonrpc": "2.0",
+    "method": "triggerprototype.get",
+    "id": 1
+}

@@ -1,0 +1,12 @@
+{
+    "jsonrpc": "2.0",
+    "method": "proxygroup.get",
+    "params": {
+        "output": "extend",
+        "selectProxies": [
+            "proxyid",
+            "name"
+        ]
+    },
+    "id": 1
+}

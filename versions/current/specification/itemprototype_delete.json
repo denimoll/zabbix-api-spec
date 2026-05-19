@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "itemprototype.delete",
+    "params": [
+        "27352",
+        "27356"
+    ],
+    "id": 1
+}

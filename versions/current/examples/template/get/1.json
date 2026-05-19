@@ -1,0 +1,14 @@
+{
+    "jsonrpc": "2.0",
+    "method": "template.get",
+    "params": {
+        "output": ["hostid"],
+        "selectTemplateGroups": "extend",
+        "filter": {
+            "host": [
+                "Linux by Zabbix agent"
+            ]
+        }
+    },
+    "id": 1
+}

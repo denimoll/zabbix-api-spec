@@ -1,0 +1,31 @@
+{
+    "params": {
+        "dashboardid": "2",
+        "name": "SQL server status",
+        "pages": [
+            {
+                "dashboard_pageid": 1,
+                "name": "Renamed Page"
+            },
+            {
+                "dashboard_pageid": 2,
+                "widgets": [
+                    {
+                        "type": "clock",
+                        "x": 0,
+                        "y": 0,
+                        "width": 12,
+                        "height": 3
+                    }
+                ]
+            },
+            {
+                "display_period": 60
+            }
+        ],
+        "userid": "1"
+    },
+    "jsonrpc": "2.0",
+    "method": "dashboard.update",
+    "id": 1
+}

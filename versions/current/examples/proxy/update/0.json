@@ -1,0 +1,16 @@
+{
+    "jsonrpc": "2.0",
+    "method": "proxy.update",
+    "params": {
+        "proxyid": "10293",
+        "hosts": [
+            {
+                "hostid": "10294"
+            },
+            {
+                "hostid": "10295"
+            }
+        ]
+    },
+    "id": 1
+}

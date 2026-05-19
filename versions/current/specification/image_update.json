@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "image.update",
+    "params": {
+        "imageid": "2",
+        "name": "Cloud icon"
+    },
+    "id": 1
+}

@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "alert.get",
+    "params": {
+        "output": "extend",
+        "actionids": "3"
+    },
+    "id": 1
+}

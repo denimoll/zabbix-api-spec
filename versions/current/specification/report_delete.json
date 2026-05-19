@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "report.delete",
+    "params": [
+        "1",
+        "2"
+    ],
+    "id": 1
+}

@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "graph.get",
+    "params": {
+        "output": "extend",
+        "hostids": 10107,
+        "sortfield": "name"
+    },
+    "id": 1
+}

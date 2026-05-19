@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "iconmap.get",
+    "params": {
+        "iconmapids": "3",
+        "output": "extend",
+        "selectMappings": "extend"
+    },
+    "id": 1
+}

@@ -1,0 +1,17 @@
+{
+    "params": {
+        "output": "extend",
+        "selectMessageTemplates": "extend",
+        "filter": {
+            "status": 0,
+            "type": [
+                1,
+                4
+            ]
+        },
+        "selectUsers": "extend"
+    },
+    "jsonrpc": "2.0",
+    "method": "mediatype.get",
+    "id": 1
+}

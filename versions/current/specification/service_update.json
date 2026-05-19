@@ -1,0 +1,20 @@
+{
+    "params": {
+        "serviceid": "5",
+        "parents": [
+            {
+                "serviceid": "3"
+            }
+        ],
+        "times": [
+            {
+                "type": "1",
+                "ts_from": "165600",
+                "ts_to": "201600"
+            }
+        ]
+    },
+    "jsonrpc": "2.0",
+    "method": "service.update",
+    "id": 1
+}

@@ -1,0 +1,19 @@
+{
+    "jsonrpc": "2.0",
+    "method": "usergroup.update",
+    "params": {
+        "usrgrpid": "17",
+        "users_status": "0",
+        "hostgroup_rights": [
+            {
+                "id": "2",
+                "permission": 3
+            },
+            {
+                "id": "4",
+                "permission": 3
+            }
+        ]
+    },
+    "id": 1
+}

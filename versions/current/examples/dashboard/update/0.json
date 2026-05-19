@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "dashboard.update",
+    "params": {
+        "dashboardid": "2",
+        "name": "SQL server status"
+    },
+    "id": 1
+}

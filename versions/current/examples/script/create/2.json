@@ -1,0 +1,17 @@
+{
+    "jsonrpc": "2.0",
+    "method": "script.create",
+    "params": {
+        "name": "Reboot server",
+        "command": "reboot server {MANUALINPUT}",
+        "type": 0,
+        "scope": 2,
+        "confirmation": "Are you sure you would like to reboot the server {MANUALINPUT}?",
+        "manualinput": 1,
+        "manualinput_prompt": "Which server you want to reboot?",
+        "manualinput_validator": "[1-9]",
+        "manualinput_validator_type": 0,
+        "manualinput_default_value": "1"
+    },
+    "id": 1
+}

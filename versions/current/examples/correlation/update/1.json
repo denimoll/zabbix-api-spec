@@ -1,0 +1,17 @@
+{
+    "jsonrpc": "2.0",
+    "method": "correlation.update",
+    "params": {
+        "correlationid": "1",
+        "filter": {
+            "conditions": [
+                {
+                    "type": 3,
+                    "oldtag": "error",
+                    "newtag": "ok"
+                }
+            ]
+        }
+    },
+    "id": 1
+}

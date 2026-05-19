@@ -1,0 +1,80 @@
+{
+    "params": {
+        "name": "Trigger action",
+        "eventsource": 0,
+        "esc_period": "30m",
+        "filter": {
+            "evaltype": 0,
+            "conditions": [
+                {
+                    "conditiontype": 1,
+                    "operator": 0,
+                    "value": "10084"
+                },
+                {
+                    "conditiontype": 3,
+                    "operator": 2,
+                    "value": "memory"
+                }
+            ],
+            "formula": "A and (B or C)"
+        },
+        "operations": [
+            {
+                "operationtype": 0,
+                "esc_step_from": 1,
+                "esc_step_to": 1,
+                "opmessage_grp": [
+                    {
+                        "usrgrpid": "7"
+                    }
+                ],
+                "opmessage": {
+                    "default_msg": 1,
+                    "mediatypeid": "1"
+                }
+            },
+            {
+                "operationtype": 1,
+                "esc_step_from": 2,
+                "esc_step_to": 2,
+                "opconditions": [
+                    {
+                        "conditiontype": 14,
+                        "operator": 0,
+                        "value": "0"
+                    }
+                ],
+                "opcommand_grp": [
+                    {
+                        "groupid": "2"
+                    }
+                ],
+                "opcommand": {
+                    "scriptid": "5"
+                }
+            }
+        ],
+        "recovery_operations": [
+            {
+                "operationtype": "11",
+                "opmessage": {
+                    "default_msg": 1
+                }
+            }
+        ],
+        "update_operations": [
+            {
+                "operationtype": "12",
+                "opmessage": {
+                    "default_msg": 0,
+                    "message": "Custom update operation message body",
+                    "subject": "Custom update operation message subject"
+                }
+            }
+        ]
+    },
+    "jsonrpc": "2.0",
+    "method": "action.create",
+    "id": 1
+}

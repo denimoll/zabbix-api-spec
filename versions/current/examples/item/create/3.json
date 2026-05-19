@@ -1,0 +1,13 @@
+{
+    "jsonrpc": "2.0",
+    "method": "item.create",
+    "params": {
+      "hostid": "30074",
+      "name": "Dependent test item",
+      "key_": "dependent.item",
+      "type": 18,
+      "master_itemid": "24759",
+      "value_type": 2
+    },
+    "id": 1
+}

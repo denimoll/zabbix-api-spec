@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "correlation.get",
+    "params": {
+        "output": "extend",
+        "selectOperations": "extend",
+        "selectFilter": "extend"
+    },
+    "id": 1
+}

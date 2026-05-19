@@ -1,0 +1,15 @@
+{
+    "jsonrpc": "2.0",
+    "method": "trigger.get",
+    "params": {
+        "output": [
+            "triggerid",
+            "description"
+        ],
+        "selectTags": "extend",
+        "triggerids": [
+            "17578"
+        ]
+    },
+    "id": 1
+}

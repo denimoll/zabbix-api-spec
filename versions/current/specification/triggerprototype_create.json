@@ -1,0 +1,19 @@
+{
+    "jsonrpc": "2.0",
+    "method": "triggerprototype.create",
+    "params": {
+        "description": "Free disk space is less than 20% on volume {#FSNAME}",
+        "expression": "last(/Zabbix server/vfs.fs.size[{#FSNAME},pfree])<20",
+        "tags": [
+            {
+                "tag": "volume",
+                "value": "{#FSNAME}"
+            },
+            {
+                "tag": "type",
+                "value": "{#FSTYPE}"
+            }
+        ]
+    },
+    "id": 1
+}

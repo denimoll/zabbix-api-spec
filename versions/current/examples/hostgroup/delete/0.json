@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "hostgroup.delete",
+    "params": [
+        "107824",
+        "107825"
+    ],
+    "id": 1
+}

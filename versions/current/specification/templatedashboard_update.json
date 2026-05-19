@@ -1,0 +1,30 @@
+{
+    "params": {
+        "dashboardid": "23",
+        "name": "Performance graphs",
+        "pages": [
+            {
+                "dashboard_pageid": 1,
+                "name": "Renamed Page"
+            },
+            {
+                "dashboard_pageid": 2,
+                "widgets": [
+                    {
+                        "type": "clock",
+                        "x": 0,
+                        "y": 0,
+                        "width": 12,
+                        "height": 3
+                    }
+                ]
+            },
+            {
+                "display_period": 60
+            }
+        ]
+    },
+    "jsonrpc": "2.0",
+    "method": "templatedashboard.update",
+    "id": 1
+}

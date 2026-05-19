@@ -11,6 +11,14 @@ python get_api_example.py --version 7.2
 python json_validation.py --version 7.2
 python create_common_jsons.py --version 7.2
 ```
+## Zabbix 7.4 (current)
+1. Добавлен новый класс `discoveryruleprototype` с методами create, delete, get, update. Итого 229 методов, 372 файла с примерами, 226 файлов спецификации.
+2. 3 ошибки в примерах:
+- *(повтор)* Невалидный json-файл examples/itemprototype/create/3.json, ошибка: Expecting ':' delimiter: line 20 column 25 (char 506)
+- *(повтор)* Невалидный json-файл examples/itemprototype/update/2.json, ошибка: Expecting ',' delimiter: line 14 column 5 (char 289)
+- *(повтор)* Невалидный json-файл examples/report/get/0.json, ошибка: Expecting ',' delimiter: line 5 column 17 (char 84)
+3. *(повтор)* Для метода user.checkauthentication нестандартный адрес в документации (https://www.zabbix.com/documentation/current/en/manual/api/reference/user/user.checkauthentication). Пример добавлен вручную.
+4. Данные хранятся в директории `versions/current/` (актуально для Zabbix 7.4).
 ## Zabbix 7.2
 1. Количество методов не изменилось относительно версии 7.0 (225 методов, 361 файл с примерами).
 2. Добавлен новый метод `hostgroup.propagate` и `templategroup.propagate` (появились как отдельные эндпоинты).

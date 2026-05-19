@@ -1,0 +1,8 @@
+{
+    "jsonrpc": "2.0",
+    "method": "discoveryruleprototype.get",
+    "params": {
+        "hostids": "10084"
+    },
+    "id": 1
+}

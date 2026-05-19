@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "iconmap.update",
+    "params": {
+        "iconmapid": "1",
+        "name": "OS icons"
+    },
+    "id": 1
+}

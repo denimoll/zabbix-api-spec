@@ -1,0 +1,19 @@
+{
+    "params": {
+        "output": "extend",
+        "hostids": "10084",
+        "with_triggers": true,
+        "search": {
+            "key_": "system.cpu"
+        },
+        "sortfield": "name",
+        "filter": {
+            "type": 18,
+            "post_type": 3
+        },
+        "selectPreprocessing": "extend"
+    },
+    "jsonrpc": "2.0",
+    "method": "item.get",
+    "id": 1
+}

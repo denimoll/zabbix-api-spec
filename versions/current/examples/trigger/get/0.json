@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "trigger.get",
+    "params": {
+        "triggerids": "14062",
+        "output": "extend",
+        "selectFunctions": "extend"
+    },
+    "id": 1
+}

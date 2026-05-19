@@ -1,0 +1,8 @@
+{
+    "jsonrpc": "2.0",
+    "method": "authentication.get",
+    "params": {
+        "output": "extend"
+    },
+    "id": 1
+}

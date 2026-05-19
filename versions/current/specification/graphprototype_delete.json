@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "graphprototype.delete",
+    "params": [
+        "652",
+        "653"
+    ],
+    "id": 1
+}

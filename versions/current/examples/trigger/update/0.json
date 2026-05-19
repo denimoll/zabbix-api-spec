@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "trigger.update",
+    "params": {
+        "triggerid": "13938",
+        "status": 0
+    },
+    "id": 1
+}

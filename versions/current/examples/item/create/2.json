@@ -1,0 +1,23 @@
+{
+    "jsonrpc": "2.0",
+    "method": "item.create",
+    "params": {
+        "name": "Device uptime",
+        "key_": "sysUpTime",
+        "hostid": "10084",
+        "type": 20,
+        "snmp_oid": "SNMPv2-MIB::sysUpTime.0",
+        "value_type": 1,
+        "delay": "60s",
+        "interfaceid": "83",
+        "preprocessing": [
+            {
+                "type": 1,
+                "params": "0.01",
+                "error_handler": 1,
+                "error_handler_params": ""
+            }
+        ]
+    },
+    "id": 1
+}

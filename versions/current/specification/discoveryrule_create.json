@@ -1,0 +1,170 @@
+{
+    "params": {
+        "name": "Mounted filesystem discovery",
+        "key_": "vfs.fs.discovery",
+        "hostid": "10197",
+        "type": 0,
+        "interfaceid": "112",
+        "delay": "30s",
+        "filter": {
+            "evaltype": 1,
+            "conditions": [
+                {
+                    "macro": "{#MACRO1}",
+                    "value": "@regex1"
+                },
+                {
+                    "macro": "{#MACRO2}",
+                    "value": "@regex2",
+                    "operator": "9"
+                },
+                {
+                    "macro": "{#MACRO3}",
+                    "value": "",
+                    "operator": "12"
+                },
+                {
+                    "macro": "{#MACRO4}",
+                    "value": "",
+                    "operator": "13"
+                }
+            ],
+            "formula": "(A and B) and (C or D)"
+        },
+        "lld_macro_paths": [
+            {
+                "lld_macro": "{#MACRO1}",
+                "path": "$.path.1"
+            },
+            {
+                "lld_macro": "{#MACRO2}",
+                "path": "$.path.2"
+            }
+        ],
+        "url": "http://127.0.0.1?discoverer.php",
+        "query_fields": [
+            {
+                "name": "mode",
+                "value": "json"
+            },
+            {
+                "name": "elements",
+                "value": "2"
+            }
+        ],
+        "headers": [
+            {
+                "name": "X-Type",
+                "value": "api"
+            },
+            {
+                "name": "Authorization",
+                "value": "Bearer mF_A.B5f-2.1JcM"
+            }
+        ],
+        "allow_traps": 1,
+        "trapper_hosts": "127.0.0.1",
+        "ruleid": "27665",
+        "preprocessing": [
+            {
+                "type": 20,
+                "params": "20",
+                "error_handler": 0,
+                "error_handler_params": ""
+            }
+        ],
+        "overrides": [
+            {
+                "name": "Discover MySQL host",
+                "step": "1",
+                "stop": "1",
+                "filter": {
+                    "evaltype": "2",
+                    "conditions": [
+                        {
+                            "macro": "{#UNIT.NAME}",
+                            "operator": "8",
+                            "value": "^mysqld\\.service$"
+                        },
+                        {
+                            "macro": "{#UNIT.NAME}",
+                            "operator": "8",
+                            "value": "^mariadb\\.service$"
+                        }
+                    ]
+                },
+                "operations": [
+                    {
+                        "operationobject": "3",
+                        "operator": "2",
+                        "value": "Database host",
+                        "opstatus": {
+                            "status": "0"
+                        },
+                        "optemplate": [
+                            {
+                                "templateid": "10170"
+                            }
+                        ],
+                        "optag": [
+                            {
+                                "tag": "database",
+                                "value": "mysql"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Discover PostgreSQL host",
+                "step": "2",
+                "stop": "1",
+                "filter": {
+                    "evaltype": "0",
+                    "conditions": [
+                        {
+                            "macro": "{#UNIT.NAME}",
+                            "operator": "8",
+                            "value": "^postgresql\\.service$"
+                        }
+                    ]
+                },
+                "operations": [
+                    {
+                        "operationobject": "3",
+                        "operator": "2",
+                        "value": "Database host",
+                        "opstatus": {
+                            "status": "0"
+                        },
+                        "optemplate": [
+                            {
+                                "templateid": "10263"
+                            }
+                        ],
+                        "optag": [
+                            {
+                                "tag": "database",
+                                "value": "postgresql"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "params": "var request = new HttpRequest();\nreturn request.post(\"https://postman-echo.com/post\", JSON.parse(value));",
+        "parameters": [
+            {
+                "name": "host",
+                "value": "{HOST.CONN}"
+            }
+        ],
+        "timeout": "6s",
+        "lifetime_type": 1,
+        "enabled_lifetime_type": 0,
+        "enabled_lifetime": "1h"
+    },
+    "jsonrpc": "2.0",
+    "method": "discoveryrule.create",
+    "id": 1
+}
