@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "discoveryrule.get",
+    "params": {
+        "output": ["name"],
+        "selectFilter": "extend",
+        "itemids": ["24681"]
+    },
+    "id": 1
+}

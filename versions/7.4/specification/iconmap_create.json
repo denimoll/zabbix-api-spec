@@ -1,0 +1,21 @@
+{
+    "jsonrpc": "2.0",
+    "method": "iconmap.create",
+    "params": {
+        "name": "Type icons",
+        "default_iconid": "2",
+        "mappings": [
+            {
+                "inventory_link": 1,
+                "expression": "server",
+                "iconid": "3"
+            },
+            {
+                "inventory_link": 1,
+                "expression": "switch",
+                "iconid": "4"
+            }
+        ]
+    },
+    "id": 1
+}

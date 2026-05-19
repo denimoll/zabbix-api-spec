@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "graphitem.get",
+    "params": {
+        "output": "extend",
+        "graphids": "387"
+    },
+    "id": 1
+}

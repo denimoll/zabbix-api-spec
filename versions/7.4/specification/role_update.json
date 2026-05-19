@@ -1,0 +1,18 @@
+{
+    "params": [
+        {
+            "roleid": "5",
+            "rules": {
+                "actions": [
+                    {
+                        "name": "execute_scripts",
+                        "status": "0"
+                    }
+                ]
+            }
+        }
+    ],
+    "jsonrpc": "2.0",
+    "method": "role.update",
+    "id": 1
+}

@@ -1,0 +1,13 @@
+{
+    "jsonrpc": "2.0",
+    "method": "configuration.export",
+    "params": {
+        "options": {
+            "templates": [
+                "10571"
+            ]
+        },
+        "format": "xml"
+    },
+    "id": 1
+}

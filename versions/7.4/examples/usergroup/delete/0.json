@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "usergroup.delete",
+    "params": [
+        "20",
+        "21"
+    ],
+    "id": 1
+}

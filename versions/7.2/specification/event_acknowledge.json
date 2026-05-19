@@ -1,0 +1,11 @@
+{
+    "params": {
+        "eventids": "20427",
+        "action": 6,
+        "message": "Problem resolved.",
+        "severity": 4
+    },
+    "jsonrpc": "2.0",
+    "method": "event.acknowledge",
+    "id": 1
+}

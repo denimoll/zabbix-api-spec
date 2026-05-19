@@ -1,0 +1,13 @@
+{
+    "jsonrpc": "2.0",
+    "method": "host.update",
+    "params": {
+        "hostid": "10387",
+        "macros": {
+            "hostmacroid": "5541",
+            "value": "new-value",
+            "automatic": "0"
+        }
+    },
+    "id": 1
+}

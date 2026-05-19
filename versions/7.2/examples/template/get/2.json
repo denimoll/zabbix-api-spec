@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "template.get",
+    "params": {
+        "output": "templateid",
+        "templateids": "10001",
+        "selectHosts": ["hostid", "name"]
+    },
+    "id": 1
+}

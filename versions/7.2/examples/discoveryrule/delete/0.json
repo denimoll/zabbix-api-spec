@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "discoveryrule.delete",
+    "params": [
+        "27665",
+        "27668"
+    ],
+    "id": 1
+}

@@ -1,0 +1,57 @@
+{
+    "params": {
+        "idp_type": "1",
+        "name": "LDAP API server #1",
+        "host": "ldap://local.ldap",
+        "port": "389",
+        "base_dn": "ou=Users,dc=example,dc=org",
+        "bind_dn": "cn=ldap_search,dc=example,dc=org",
+        "bind_password": "ldapsecretpassword",
+        "search_attribute": "uid",
+        "start_tls": "1",
+        "provision_status": "1",
+        "description": "",
+        "search_filter": "",
+        "group_basedn": "OU=Zabbix,DC=zbx,DC=local",
+        "group_name": "CN",
+        "group_member": "member",
+        "group_filter": "(%{groupattr}=CN=%{ref},OU=Users,OU=Zabbix,DC=zbx,DC=local)",
+        "group_membership": "",
+        "user_username": "givenName",
+        "user_lastname": "sn",
+        "user_ref_attr": "CN",
+        "provision_media": [
+            {
+                "name": "example.com",
+                "mediatypeid": "1",
+                "attribute": "[email protected]"
+            }
+        ],
+        "provision_groups": [
+            {
+                "name": "*",
+                "roleid": "4",
+                "user_groups": [
+                    {
+                        "usrgrpid": "8"
+                    }
+                ]
+            },
+            {
+                "name": "Zabbix administrators",
+                "roleid": "2",
+                "user_groups": [
+                    {
+                        "usrgrpid": "7"
+                    },
+                    {
+                        "usrgrpid": "8"
+                    }
+                ]
+            }
+        ]
+    },
+    "jsonrpc": "2.0",
+    "method": "userdirectory.create",
+    "id": 1
+}

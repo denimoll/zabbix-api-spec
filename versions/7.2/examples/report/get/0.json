@@ -1,0 +1,11 @@
+{
+    "jsonrpc": "2.0",
+    "method": "report.get",
+    "params": [
+        "output": "extend",
+        "selectUsers": "extend",
+        "selectUserGroups": "extend",
+        "reportids": ["1", "2"]
+    ],
+    "id": 1
+}

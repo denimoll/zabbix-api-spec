@@ -1,0 +1,15 @@
+{
+    "params": {
+        "slaid": "1",
+        "serviceids": [
+            1,
+            4
+        ],
+        "periods": 1,
+        "period_to": 1761861599,
+        "period_from": 1635724800
+    },
+    "jsonrpc": "2.0",
+    "method": "sla.getsli",
+    "id": 1
+}

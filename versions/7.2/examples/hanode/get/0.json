@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "hanode.get",
+    "params": {
+        "preservekeys": true,
+        "sortfield": "status",
+        "sortorder": "DESC"
+    },
+    "id": 1
+}

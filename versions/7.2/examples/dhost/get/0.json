@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "dhost.get",
+    "params": {
+        "output": "extend",
+        "selectDServices": "extend",
+        "druleids": "4"
+    },
+    "id": 1
+}

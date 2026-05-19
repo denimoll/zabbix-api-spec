@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "host.massremove",
+    "params": {
+        "hostids": ["69665", "69666"],
+        "templateids_clear": "325"
+    },
+    "id": 1
+}

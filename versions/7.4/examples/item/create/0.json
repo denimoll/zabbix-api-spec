@@ -1,0 +1,24 @@
+{
+    "jsonrpc": "2.0",
+    "method": "item.create",
+    "params": {
+        "name": "Free disk space on /home/joe/",
+        "key_": "vfs.fs.size[/home/joe/,free]",
+        "hostid": "30074",
+        "type": 0,
+        "value_type": 3,
+        "interfaceid": "30084",
+        "tags": [
+            {
+                "tag": "component",
+                "value": "storage"
+            },
+            {
+                "tag": "equipment",
+                "value": "workstation"
+            }
+        ],
+        "delay": "30s"
+    },
+    "id": 1
+}

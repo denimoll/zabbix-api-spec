@@ -1,0 +1,13 @@
+{
+    "params": [
+        {
+            "hostid": "30079"
+        },
+        {
+            "hostid": "30073"
+        }
+    ],
+    "jsonrpc": "2.0",
+    "method": "script.getscriptsbyhosts",
+    "id": 1
+}

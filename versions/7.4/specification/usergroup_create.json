@@ -1,0 +1,17 @@
+{
+    "jsonrpc": "2.0",
+    "method": "usergroup.create",
+    "params": {
+        "name": "Operation managers",
+        "hostgroup_rights": {
+            "id": "2",
+            "permission": 0
+        },
+        "users": [
+            {
+                "userid": "12"
+            }
+        ]
+    },
+    "id": 1
+}

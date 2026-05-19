@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "map.create",
+    "params": {
+        "name": "Map",
+        "width": 600,
+        "height": 600
+    },
+    "id": 1
+}

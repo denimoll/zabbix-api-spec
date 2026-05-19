@@ -1,0 +1,16 @@
+{
+    "jsonrpc": "2.0",
+    "method": "discoveryrule.update",
+    "params": {
+        "itemid": "44211",
+        "preprocessing": [
+            {
+                "type": 12,
+                "params": "$.path.to.json",
+                "error_handler": 2,
+                "error_handler_params": "5"
+            }
+        ]
+    },
+    "id": 1
+}

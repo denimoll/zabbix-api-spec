@@ -1,0 +1,13 @@
+{
+    "jsonrpc": "2.0",
+    "method": "user.get",
+    "params": {
+        "output": "extend",
+        "getAccess": true,
+        "selectMedias": "extend",
+        "selectMediatypes": "extend",
+        "selectUsrgrps": "extend",
+        "selectRole": "extend"
+    },
+    "id": 1
+}

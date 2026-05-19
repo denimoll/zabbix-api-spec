@@ -1,0 +1,13 @@
+{
+    "params": {
+        "output": "extend",
+        "hostids": "10198",
+        "search": {
+            "macro": "STATUS"
+        },
+        "globalmacro": true
+    },
+    "jsonrpc": "2.0",
+    "method": "usermacro.get",
+    "id": 1
+}

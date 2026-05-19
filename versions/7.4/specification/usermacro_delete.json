@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "usermacro.delete",
+    "params": [
+        "32",
+        "11"
+    ],
+    "id": 1
+}

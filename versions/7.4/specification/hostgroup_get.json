@@ -1,0 +1,14 @@
+{
+    "jsonrpc": "2.0",
+    "method": "hostgroup.get",
+    "params": {
+        "output": "extend",
+        "filter": {
+            "name": [
+                "Zabbix servers",
+                "Linux servers"
+            ]
+        }
+    },
+    "id": 1
+}

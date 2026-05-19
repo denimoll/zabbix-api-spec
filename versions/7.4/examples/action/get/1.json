@@ -1,0 +1,13 @@
+{
+    "jsonrpc": "2.0",
+    "method": "action.get",
+    "params": {
+        "output": "extend",
+        "selectOperations": "extend",
+        "selectFilter": "extend",
+        "filter": {
+            "eventsource": 1
+        }
+    },
+    "id": 1
+}

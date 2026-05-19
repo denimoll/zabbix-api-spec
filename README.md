@@ -1,36 +1,32 @@
 # zabbix-api-spec
 ## Get API specification for Zabbix
 Полноценной спецификации API у Zabbix нет, но есть примеры на сайте для каждого метода. \ \
-Скрипт *get_api_validation.py* предназначен для выгрузки всех примеров с официального сайта в одно место (директория *examples*). \
+Скрипт *get_api_example.py* предназначен для выгрузки всех примеров с официального сайта (директория *versions/{version}/examples*). \
 Скрипт *json_validation.py* необходим для проверки корректности примеров с сайта. \
-Скрипт *create_common_jsons.py* создает общий json в рамках одного метода из примеров (директория *specification*).
-## Zabbix 4.0
-1. Для Zabbix 4.0 в 2021 году (тогда и был написан данный скрипт) было обнаружено 14 ошибок в примерах. По большей части это были лишние или недостающие запятые.
-2. Для Zabbix 4.0 от 26.11.2024 выявлено 6 ошибок:
-- Невалидный json-файл examples/triggerprototype/get/1.json, ошибка: Expecting ',' delimiter: line 9 column 16 (char 223)
-- Невалидный json-файл examples/trend/get/0.json, ошибка: Illegal trailing comma before end of array: line 11 column 31 (char 292)
-- Невалидный json-файл examples/discoveryrule/create/3.json, ошибка: Illegal trailing comma before end of object: line 28 column 58 (char 921)
-- Невалидный json-файл examples/itemprototype/update/2.json, ошибка: Expecting ',' delimiter: line 13 column 12 (char 340)
-- Невалидный json-файл examples/maintenance/create/0.json, ошибка: Illegal trailing comma before end of object: line 25 column 41 (char 793)
-3. Для метода user.checkauthentication нестандартный адрес в документации (https://www.zabbix.com/documentation/4.0/en/manual/api/reference/user/user.checkauthentication), поэтому автоматически через скрипт пример не был скопирован. Стандартный путь: "class/action", например, "alert/get", а здесь "class/class.action". Пример добавлен вручную.
-## Zabbix 5.0
-1. Добавлены новые классы auditlog, autoregistration, task, а также несколько новых примеров для старых методов.
-2. По сравнению с предыдущей версией выявлено уже 4 ошибки, но всё тех же:
-- *(повтор)* Невалидный json-файл examples/trend/get/0.json, ошибка: Illegal trailing comma before end of array: line 11 column 31 (char 292)
-- *(повтор)* Невалидный json-файл examples/discoveryrule/create/4.json, ошибка: Illegal trailing comma before end of object: line 28 column 58 (char 921)
-- *(повтор)* Невалидный json-файл examples/itemprototype/update/2.json, ошибка: Expecting ',' delimiter: line 13 column 12 (char 340)
-- *(повтор)* Невалидный json-файл examples/maintenance/create/0.json, ошибка: Illegal trailing comma before end of object: line 25 column 41 (char 793)
-3. *(повтор)* Для метода user.checkauthentication нестандартный адрес в документации.
-4. Для метода task.create (https://www.zabbix.com/documentation/5.0/en/manual/api/reference/task/create) не было создано примеров через скрипт, т.к. на сайте приводятся примеры до версии 5.0.5 и после версии 5.0.5. Примеры для версий после 5.0.5 добавлены вручную.
-## Zabbix 6.0
-1. Добавлены новые методы authentification (get, update), configuration.importcompare, hanode.get, history.clear, host.get, hostoprototype.update, housekeeping (get, update), itemprotorype.update, regexp(create, delete, get, update), report (create, delete, get, update), role (create, delete, get, update), script (create, execute), service.update, settings (get, update), sla (create, delete, get, getsli, update), template.get, templatedashboard (create, delete, get, update), token (create, delete, generate, get, update), user (get, unblock, update), а также несколько новых примеров для старых методов.
-2. 5 ошибок в примерах:
-- Невалидный json-файл examples/templatedashboard/update/1.json, ошибка: Expecting value: line 9 column 32 (char 262)
-- *(повтор)* Невалидный json-файл examples/trend/get/0.json, ошибка: Illegal trailing comma before end of array: line 11 column 31 (char 292)
-- Невалидный json-файл examples/dashboard/update/1.json, ошибка: Expecting value: line 9 column 32 (char 254)
-- *(повтор)* Невалидный json-файл examples/itemprototype/update/2.json, ошибка: Expecting ',' delimiter: line 13 column 12 (char 340)
-- Невалидный json-файл examples/report/get/0.json, ошибка: Expecting ',' delimiter: line 5 column 24 (char 112)
-3. *(повтор)* Для метода user.checkauthentication нестандартный адрес в документации.
+Скрипт *create_common_jsons.py* создает общий json в рамках одного метода из примеров (директория *versions/{version}/specification*).
+
+Все скрипты принимают аргументы `--version` (например, `7.2`) и `--base-dir` (по умолчанию `versions`).
+```
+python get_api_example.py --version 7.2
+python json_validation.py --version 7.2
+python create_common_jsons.py --version 7.2
+```
+## Zabbix 7.4
+1. Добавлен новый класс `discoveryruleprototype` с методами create, delete, get, update. Итого 229 методов, 372 файла с примерами, 226 файлов спецификации.
+2. 3 ошибки в примерах:
+- *(повтор)* Невалидный json-файл examples/itemprototype/create/3.json, ошибка: Expecting ':' delimiter: line 20 column 25 (char 506)
+- *(повтор)* Невалидный json-файл examples/itemprototype/update/2.json, ошибка: Expecting ',' delimiter: line 14 column 5 (char 289)
+- *(повтор)* Невалидный json-файл examples/report/get/0.json, ошибка: Expecting ',' delimiter: line 5 column 17 (char 84)
+3. *(повтор)* Для метода user.checkauthentication нестандартный адрес в документации (https://www.zabbix.com/documentation/7.4/en/manual/api/reference/user/user.checkauthentication). Пример добавлен вручную.
+## Zabbix 7.2
+1. Количество методов не изменилось относительно версии 7.0 (225 методов, 361 файл с примерами).
+2. Добавлен новый метод `hostgroup.propagate` и `templategroup.propagate` (появились как отдельные эндпоинты).
+3. 4 ошибки в примерах:
+- *(повтор)* Невалидный json-файл examples/itemprototype/create/3.json, ошибка: Expecting ':' delimiter: line 20 column 25 (char 506)
+- *(повтор)* Невалидный json-файл examples/itemprototype/update/2.json, ошибка: Expecting ',' delimiter: line 14 column 5 (char 289)
+- *(повтор)* Невалидный json-файл examples/report/get/0.json, ошибка: Expecting ',' delimiter: line 5 column 17 (char 84)
+- Невалидный json-файл examples/sla/getsli/0.json, ошибка: Illegal trailing comma before end of object: line 11 column 32 (char 207)
+4. На страницах Zabbix 7.2 изменилась разметка: блоки `<pre>` с примерами теперь являются прямыми соседями тега `<p>`, а не вложены в `<div>`. Скрипт обновлён для поддержки обоих форматов.
 ## Zabbix 7.0
 1. Большое изменение от разработчиков по передачи токена. Во всех примерах параметр auth убран
 > Note that the "auth" property is deprecated. It will be removed in the future releases.
@@ -41,3 +37,30 @@
 - Невалидный json-файл examples/itemprototype/create/3.json, ошибка: Expecting ':' delimiter: line 20 column 32 (char 639)
 - *(повтор)* Невалидный json-файл examples/report/get/0.json, ошибка: Expecting ',' delimiter: line 5 column 24 (char 112)
 4. *(повтор)* Для метода user.checkauthentication нестандартный адрес в документации.
+## Zabbix 6.0
+1. Добавлены новые методы authentification (get, update), configuration.importcompare, hanode.get, history.clear, host.get, hostoprototype.update, housekeeping (get, update), itemprotorype.update, regexp(create, delete, get, update), report (create, delete, get, update), role (create, delete, get, update), script (create, execute), service.update, settings (get, update), sla (create, delete, get, getsli, update), template.get, templatedashboard (create, delete, get, update), token (create, delete, generate, get, update), user (get, unblock, update), а также несколько новых примеров для старых методов.
+2. 5 ошибок в примерах:
+- Невалидный json-файл examples/templatedashboard/update/1.json, ошибка: Expecting value: line 9 column 32 (char 262)
+- *(повтор)* Невалидный json-файл examples/trend/get/0.json, ошибка: Illegal trailing comma before end of array: line 11 column 31 (char 292)
+- Невалидный json-файл examples/dashboard/update/1.json, ошибка: Expecting value: line 9 column 32 (char 254)
+- *(повтор)* Невалидный json-файл examples/itemprototype/update/2.json, ошибка: Expecting ',' delimiter: line 13 column 12 (char 340)
+- Невалидный json-файл examples/report/get/0.json, ошибка: Expecting ',' delimiter: line 5 column 24 (char 112)
+3. *(повтор)* Для метода user.checkauthentication нестандартный адрес в документации.
+## Zabbix 5.0
+1. Добавлены новые классы auditlog, autoregistration, task, а также несколько новых примеров для старых методов.
+2. По сравнению с предыдущей версией выявлено уже 4 ошибки, но всё тех же:
+- *(повтор)* Невалидный json-файл examples/trend/get/0.json, ошибка: Illegal trailing comma before end of array: line 11 column 31 (char 292)
+- *(повтор)* Невалидный json-файл examples/discoveryrule/create/4.json, ошибка: Illegal trailing comma before end of object: line 28 column 58 (char 921)
+- *(повтор)* Невалидный json-файл examples/itemprototype/update/2.json, ошибка: Expecting ',' delimiter: line 13 column 12 (char 340)
+- *(повтор)* Невалидный json-файл examples/maintenance/create/0.json, ошибка: Illegal trailing comma before end of object: line 25 column 41 (char 793)
+3. *(повтор)* Для метода user.checkauthentication нестандартный адрес в документации.
+4. Для метода task.create (https://www.zabbix.com/documentation/5.0/en/manual/api/reference/task/create) не было создано примеров через скрипт, т.к. на сайте приводятся примеры до версии 5.0.5 и после версии 5.0.5. Примеры для версий после 5.0.5 добавлены вручную.
+## Zabbix 4.0
+1. Для Zabbix 4.0 в 2021 году (тогда и был написан данный скрипт) было обнаружено 14 ошибок в примерах. По большей части это были лишние или недостающие запятые.
+2. Для Zabbix 4.0 от 26.11.2024 выявлено 6 ошибок:
+- Невалидный json-файл examples/triggerprototype/get/1.json, ошибка: Expecting ',' delimiter: line 9 column 16 (char 223)
+- Невалидный json-файл examples/trend/get/0.json, ошибка: Illegal trailing comma before end of array: line 11 column 31 (char 292)
+- Невалидный json-файл examples/discoveryrule/create/3.json, ошибка: Illegal trailing comma before end of object: line 28 column 58 (char 921)
+- Невалидный json-файл examples/itemprototype/update/2.json, ошибка: Expecting ',' delimiter: line 13 column 12 (char 340)
+- Невалидный json-файл examples/maintenance/create/0.json, ошибка: Illegal trailing comma before end of object: line 25 column 41 (char 793)
+3. Для метода user.checkauthentication нестандартный адрес в документации (https://www.zabbix.com/documentation/4.0/en/manual/api/reference/user/user.checkauthentication), поэтому автоматически через скрипт пример не был скопирован. Стандартный путь: "class/action", например, "alert/get", а здесь "class/class.action". Пример добавлен вручную.

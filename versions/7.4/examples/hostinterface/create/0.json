@@ -1,0 +1,14 @@
+{
+    "jsonrpc": "2.0",
+    "method": "hostinterface.create",
+    "params": {
+        "hostid": "30052",
+        "main": "0",
+        "type": "1",
+        "useip": "1",
+        "ip": "127.0.0.1",
+        "dns": "",
+        "port": "10050"
+    },
+    "id": 1
+}

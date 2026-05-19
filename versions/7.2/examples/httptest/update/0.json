@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "httptest.update",
+    "params": {
+        "httptestid": "5",
+        "status": 0
+    },
+    "id": 1
+}

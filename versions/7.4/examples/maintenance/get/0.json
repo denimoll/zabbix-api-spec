@@ -1,0 +1,11 @@
+{
+    "jsonrpc": "2.0",
+    "method": "maintenance.get",
+    "params": {
+        "output": "extend",
+        "selectHostGroups": "extend",
+        "selectTimeperiods": "extend",
+        "selectTags": "extend"
+    },
+    "id": 1
+}

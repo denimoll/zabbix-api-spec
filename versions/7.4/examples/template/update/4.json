@@ -1,0 +1,13 @@
+{
+    "jsonrpc": "2.0",
+    "method": "template.update",
+    "params": {
+        "templateid": "10086",
+        "templates": [
+            {
+                "templateid": "10087"
+            }
+        ]
+    },
+    "id": 1
+}

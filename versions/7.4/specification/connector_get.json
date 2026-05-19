@@ -1,0 +1,14 @@
+{
+    "jsonrpc": "2.0",
+    "method": "connector.get",
+    "params": {
+        "output": "extend",
+        "selectTags": [
+            "tag",
+            "operator",
+            "value"
+        ],
+        "preservekeys": true
+    },
+    "id": 1
+}

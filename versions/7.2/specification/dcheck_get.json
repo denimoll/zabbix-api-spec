@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "dcheck.get",
+    "params": {
+        "output": "extend",
+        "dcheckids": "6"
+    },
+    "id": 1
+}

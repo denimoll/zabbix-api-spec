@@ -1,0 +1,17 @@
+{
+    "jsonrpc": "2.0",
+    "method": "hostgroup.massupdate",
+    "params": {
+        "groups": [
+            {
+                "groupid": "6"
+            }
+        ],
+        "hosts": [
+            {
+                "hostid": "30050"
+            }
+        ]
+    },
+    "id": 1
+}

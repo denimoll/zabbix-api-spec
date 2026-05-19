@@ -1,0 +1,26 @@
+{
+    "jsonrpc": "2.0",
+    "method": "mediatype.create",
+    "params": {
+        "type": "1",
+        "name": "Push notifications",
+        "exec_path": "push-notification.sh",
+        "maxattempts": "5",
+        "attempt_interval": "11s",
+        "parameters": [
+            {
+                "sortorder": "0",
+                "value": "{ALERT.SENDTO}"
+            },
+            {
+                "sortorder": "1",
+                "value": "{ALERT.SUBJECT}"
+            },
+            {
+                "sortorder": "2",
+                "value": "{ALERT.MESSAGE}"
+            }
+        ]
+    },
+    "id": 1
+}

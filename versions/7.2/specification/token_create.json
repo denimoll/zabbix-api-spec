@@ -1,0 +1,11 @@
+{
+    "params": {
+        "name": "Your token",
+        "userid": "2",
+        "status": "1",
+        "expires_at": "1611238072"
+    },
+    "jsonrpc": "2.0",
+    "method": "token.create",
+    "id": 1
+}

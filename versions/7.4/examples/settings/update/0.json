@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "settings.update",
+    "params": {
+        "login_attempts": "1",
+        "login_block": "1m"
+    },
+    "id": 1
+}

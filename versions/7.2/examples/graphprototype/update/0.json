@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "graphprototype.update",
+    "params": {
+        "graphid": "439",
+        "width": 1100,
+        "height": 400
+    },
+    "id": 1
+}

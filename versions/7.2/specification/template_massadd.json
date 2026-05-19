@@ -1,0 +1,28 @@
+{
+    "params": {
+        "templates": [
+            {
+                "templateid": "10085"
+            },
+            {
+                "templateid": "10086"
+            }
+        ],
+        "groups": [
+            {
+                "groupid": "2"
+            }
+        ],
+        "templates_link": [
+            {
+                "templateid": "10106"
+            },
+            {
+                "templateid": "10104"
+            }
+        ]
+    },
+    "jsonrpc": "2.0",
+    "method": "template.massadd",
+    "id": 1
+}

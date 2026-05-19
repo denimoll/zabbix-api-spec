@@ -1,0 +1,8 @@
+{
+   "jsonrpc": "2.0",
+    "method": "autoregistration.get",
+    "params": {
+        "output": "extend"
+    },
+    "id": 1
+}

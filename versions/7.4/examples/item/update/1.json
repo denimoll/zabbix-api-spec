@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "item.update",
+    "params": {
+        "name": "Dependent item updated name",
+        "master_itemid": "25562",
+        "itemid": "189019"
+    },
+    "id": 1
+}

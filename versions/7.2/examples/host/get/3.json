@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "host.get",
+    "params": {
+        "output": ["hostid", "name"],
+        "templateids": "10001"
+    },
+    "id": 1
+}

@@ -1,0 +1,11 @@
+{
+    "jsonrpc": "2.0",
+    "method": "hanode.get",
+    "params": {
+        "output": ["name", "status"],
+        "filter": {
+            "address": ["192.168.1.7", "192.168.1.13"]
+        }
+    },
+    "id": 1
+}

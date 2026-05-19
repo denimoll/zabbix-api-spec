@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "usermacro.updateglobal",
+    "params": {
+        "globalmacroid": "1",
+        "value": "public"
+    },
+    "id": 1
+}

@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "item.update",
+    "params": {
+        "itemid": "23865",
+        "parameters": [],
+        "script": "Zabbix.log(3, 'Log test');\nreturn 1;"
+    },
+    "id": 1
+}

@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "action.delete",
+    "params": [
+        "17",
+        "18"
+    ],
+    "id": 1
+}

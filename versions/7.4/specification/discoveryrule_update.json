@@ -1,0 +1,38 @@
+{
+    "params": {
+        "itemid": "22450",
+        "filter": {
+            "evaltype": 1,
+            "conditions": [
+                {
+                    "macro": "{#FSTYPE}",
+                    "value": "@File systems for discovery"
+                }
+            ]
+        },
+        "lld_macro_paths": [
+            {
+                "lld_macro": "{#MACRO1}",
+                "path": "$.json.path"
+            }
+        ],
+        "allow_traps": 0,
+        "preprocessing": [
+            {
+                "type": 12,
+                "params": "$.path.to.json",
+                "error_handler": 2,
+                "error_handler_params": "5"
+            }
+        ],
+        "parameters": [],
+        "script": "Zabbix.log(3, 'Log test');\nreturn 1;",
+        "lifetime_type": 0,
+        "lifetime": "7d",
+        "enabled_lifetime_type": 0,
+        "enabled_lifetime": "12h"
+    },
+    "jsonrpc": "2.0",
+    "method": "discoveryrule.update",
+    "id": 1
+}

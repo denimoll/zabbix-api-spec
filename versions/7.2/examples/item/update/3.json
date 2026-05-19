@@ -1,0 +1,16 @@
+{
+    "jsonrpc": "2.0",
+    "method": "item.update",
+    "params": {
+        "itemid": "23856",
+        "preprocessing": [
+            {
+                "type": 13,
+                "params": "\n100",
+                "error_handler": 1,
+                "error_handler_params": ""
+            }
+        ]
+    },
+    "id": 1
+}

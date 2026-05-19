@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "map.update",
+    "params": {
+        "sysmapid": "8",
+        "width": 1200,
+        "height": 1200
+    },
+    "id": 1
+}

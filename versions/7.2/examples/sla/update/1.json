@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "sla.update",
+    "params": {
+        "slaid": "5",
+        "schedule": []
+    },
+    "id": 1
+}

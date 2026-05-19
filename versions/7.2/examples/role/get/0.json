@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "role.get",
+    "params": {
+        "output": "extend",
+        "selectRules": "extend",
+        "roleids": "3"
+    },
+    "id": 1
+}

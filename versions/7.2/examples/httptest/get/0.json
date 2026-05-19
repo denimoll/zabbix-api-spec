@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "httptest.get",
+    "params": {
+        "output": "extend",
+        "selectSteps": "extend",
+        "httptestids": "9"
+    },
+    "id": 1
+}

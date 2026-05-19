@@ -1,0 +1,53 @@
+{
+    "jsonrpc": "2.0",
+    "method": "dashboard.create",
+    "params": {
+        "name": "My dashboard",
+        "display_period": 30,
+        "auto_start": 1,
+        "pages": [
+            {
+                "widgets": [
+                    {
+                        "type": "problems",
+                        "x": 0,
+                        "y": 0,
+                        "width": 36,
+                        "height": 5,
+                        "view_mode": 0,
+                        "fields": [
+                            {
+                                "type": 1,
+                                "name": "tags.0.tag",
+                                "value": "service"
+                            },
+                            {
+                                "type": 0,
+                                "name": "tags.0.operator",
+                                "value": 1
+                            },
+                            {
+                                "type": 1,
+                                "name": "tags.0.value",
+                                "value": "zabbix_server"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "userGroups": [
+            {
+                "usrgrpid": "7",
+                "permission": 2
+            }
+        ],
+        "users": [
+            {
+                "userid": "4",
+                "permission": 3
+            }
+        ]
+    },
+    "id": 1
+}

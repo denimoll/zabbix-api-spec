@@ -1,0 +1,15 @@
+{
+    "jsonrpc": "2.0",
+    "method": "discoveryruleprototype.update",
+    "params": {
+        "itemid": "47253",
+        "preprocessing": [
+            {
+                "type": 12,
+                "params": "$.tablespaces",
+                "error_handler": 1
+            }
+        ]
+    },
+    "id": 1
+}

@@ -1,0 +1,12 @@
+{
+    "jsonrpc": "2.0",
+    "method": "host.update",
+    "params": {
+        "hostid": "10387",
+        "inventory_mode": 0,
+        "inventory": {
+            "location": "Latvia, Riga"
+        }
+    },
+    "id": 1
+}

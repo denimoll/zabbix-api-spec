@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "user.get",
+    "params": {
+        "output": ["userid", "username"],
+        "selectRole": "extend",
+        "userids": "12"
+    },
+    "id": 1
+}

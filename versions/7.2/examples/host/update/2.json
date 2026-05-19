@@ -1,0 +1,19 @@
+{
+    "jsonrpc": "2.0",
+    "method": "host.update",
+    "params": {
+        "hostid": "10126",
+        "macros": [
+            {
+                "macro": "{$PASS}",
+                "value": "password"
+            },
+            {
+                "macro": "{$DISC}",
+                "value": "sda",
+                "description": "Updated description"
+            }
+        ]
+    },
+    "id": 1
+}

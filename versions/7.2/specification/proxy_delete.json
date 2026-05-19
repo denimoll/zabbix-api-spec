@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "proxy.delete",
+    "params": [
+        "10286",
+        "10285"
+    ],
+    "id": 1
+}

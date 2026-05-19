@@ -1,0 +1,25 @@
+{
+    "params": {
+        "name": "new event tag correlation",
+        "filter": {
+            "evaltype": 0,
+            "conditions": [
+                {
+                    "type": 1,
+                    "tag": "ok"
+                }
+            ],
+            "formula": "A or B"
+        },
+        "operations": [
+            {
+                "type": 0
+            }
+        ],
+        "description": "a custom description",
+        "status": 0
+    },
+    "jsonrpc": "2.0",
+    "method": "correlation.create",
+    "id": 1
+}

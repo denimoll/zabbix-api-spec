@@ -1,0 +1,10 @@
+{
+    "params": {
+        "scriptid": "4",
+        "hostid": "30079",
+        "manualinput": "2"
+    },
+    "jsonrpc": "2.0",
+    "method": "script.execute",
+    "id": 1
+}

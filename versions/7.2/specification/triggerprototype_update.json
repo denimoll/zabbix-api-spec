@@ -1,0 +1,19 @@
+{
+    "params": {
+        "triggerid": "13938",
+        "status": 0,
+        "tags": [
+            {
+                "tag": "volume",
+                "value": "{#FSNAME}"
+            },
+            {
+                "tag": "type",
+                "value": "{#FSTYPE}"
+            }
+        ]
+    },
+    "jsonrpc": "2.0",
+    "method": "triggerprototype.update",
+    "id": 1
+}

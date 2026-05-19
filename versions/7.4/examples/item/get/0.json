@@ -1,0 +1,14 @@
+{
+    "jsonrpc": "2.0",
+    "method": "item.get",
+    "params": {
+        "output": "extend",
+        "hostids": "10084",
+        "with_triggers": true,
+        "search": {
+            "key_": "system.cpu"
+        },
+        "sortfield": "name"
+    },
+    "id": 1
+}

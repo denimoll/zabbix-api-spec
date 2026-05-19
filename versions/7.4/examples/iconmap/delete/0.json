@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "iconmap.delete",
+    "params": [
+        "2",
+        "5"
+    ],
+    "id": 1
+}

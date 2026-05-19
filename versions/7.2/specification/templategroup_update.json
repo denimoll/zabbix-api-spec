@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "templategroup.update",
+    "params": {
+        "groupid": "7",
+        "name": "Templates/Databases"
+    },
+    "id": 1
+}

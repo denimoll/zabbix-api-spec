@@ -1,0 +1,11 @@
+{
+    "jsonrpc": "2.0",
+    "method": "mfa.create",
+    "params": {
+        "type": 1,
+        "name": "Zabbix TOTP",
+        "hash_function": 1,
+        "code_length": 6
+    },
+    "id": 1
+}

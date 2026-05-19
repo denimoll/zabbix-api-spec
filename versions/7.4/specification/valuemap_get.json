@@ -1,0 +1,12 @@
+{
+    "params": {
+        "output": "extend",
+        "selectMappings": "extend",
+        "valuemapids": [
+            "4"
+        ]
+    },
+    "jsonrpc": "2.0",
+    "method": "valuemap.get",
+    "id": 1
+}

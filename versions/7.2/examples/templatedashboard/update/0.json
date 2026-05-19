@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "templatedashboard.update",
+    "params": {
+        "dashboardid": "23",
+        "name": "Performance graphs"
+    },
+    "id": 1
+}

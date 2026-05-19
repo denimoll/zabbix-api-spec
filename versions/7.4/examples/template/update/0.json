@@ -1,0 +1,11 @@
+{
+    "jsonrpc": "2.0",
+    "method": "template.update",
+    "params": {
+        "templateid": "10086",
+        "host": "Linux by Zabbix agent Custom",
+        "name": "My template",
+        "description": "This is a custom Linux template."
+    },
+    "id": 1
+}

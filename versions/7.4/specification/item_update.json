@@ -1,0 +1,22 @@
+{
+    "params": {
+        "itemid": "10092",
+        "status": 0,
+        "name": "Dependent item updated name",
+        "master_itemid": "25562",
+        "allow_traps": 1,
+        "preprocessing": [
+            {
+                "type": 13,
+                "params": "\n100",
+                "error_handler": 1,
+                "error_handler_params": ""
+            }
+        ],
+        "parameters": [],
+        "params": "Zabbix.log(3, 'Log test');\nreturn 1;"
+    },
+    "jsonrpc": "2.0",
+    "method": "item.update",
+    "id": 1
+}

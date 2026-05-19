@@ -1,0 +1,8 @@
+{
+    "jsonrpc": "2.0",
+    "method": "hanode.get",
+    "params": {
+        "ha_nodeids": ["ckuo7i1nw000e0sajwfttc1mp", "ckuo7i1nv000c0sajz85xcrtt"]
+    },
+    "id": 1
+}

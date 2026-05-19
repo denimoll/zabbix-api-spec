@@ -1,0 +1,12 @@
+{
+    "jsonrpc": "2.0",
+    "method": "discoveryruleprototype.create",
+    "params": {
+        "name": "Discover tablespaces for {#DB}",
+        "key_": "db.tablespace.discovery[{#DB}]",
+        "hostid": "10084",
+        "ruleid": "47251",
+        "type": 23
+    },
+    "id": 1
+}

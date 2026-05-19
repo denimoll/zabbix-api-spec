@@ -1,0 +1,13 @@
+{
+    "jsonrpc": "2.0",
+    "method": "task.create",
+    "params": [
+        {
+            "type": 2,
+            "request": {
+                "proxyids": ["10459", "10460"]
+            }
+        }
+    ],
+    "id": 1
+}

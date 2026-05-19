@@ -1,0 +1,18 @@
+{
+    "jsonrpc": "2.0",
+    "method": "drule.create",
+    "params": {
+        "name": "Zabbix agent discovery",
+        "iprange": "192.168.1.1-255",
+        "concurrency_max": "10",
+        "dchecks": [
+            {
+                "type": "9",
+                "key_": "system.uname",
+                "ports": "10050",
+                "uniq": "0"
+            }
+        ]
+    },
+    "id": 1
+}

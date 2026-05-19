@@ -1,0 +1,11 @@
+{
+    "jsonrpc": "2.0",
+    "method": "regexp.get",
+    "params": {
+        "output": ["regexpid", "name"],
+        "selectExpressions": ["expression", "expression_type"],
+        "regexpids": [1, 2],
+        "preservekeys": true
+    },
+    "id": 1
+}

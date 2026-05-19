@@ -1,0 +1,34 @@
+{
+    "jsonrpc": "2.0",
+    "method": "action.create",
+    "params": {
+        "name": "Register Linux servers",
+        "eventsource": "2",
+        "filter": {
+            "evaltype": "2",
+            "conditions": [
+                {
+                    "conditiontype": "22",
+                    "operator": "2",
+                    "value": "SRV"
+                },
+                {
+                    "conditiontype": "24",
+                    "operator": "2",
+                    "value": "AlmaLinux"
+                }
+            ]
+        },
+        "operations": [
+            {
+                "operationtype": "4",
+                "opgroup": [
+                    {
+                        "groupid": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    "id": 1
+}

@@ -1,0 +1,13 @@
+{
+    "jsonrpc": "2.0",
+    "method": "templategroup.propagate",
+    "params": {
+        "groups": [
+            {
+                "groupid": "15"
+            }
+        ],
+        "permissions": true
+    },
+    "id": 1
+}

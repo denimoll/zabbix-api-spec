@@ -1,0 +1,44 @@
+{
+    "params": {
+        "filter": {
+            "host": [
+                "Zabbix server",
+                "Linux server"
+            ]
+        },
+        "output": [
+            "hostid"
+        ],
+        "selectHostGroups": "extend",
+        "selectParentTemplates": [
+            "templateid",
+            "name"
+        ],
+        "hostids": "10084",
+        "templateids": "10001",
+        "selectInventory": [
+            "os"
+        ],
+        "searchInventory": {
+            "os": "Linux"
+        },
+        "selectTags": "extend",
+        "evaltype": 0,
+        "tags": [
+            {
+                "tag": "host-name",
+                "value": "linux-server",
+                "operator": 1
+            }
+        ],
+        "inheritedTags": true,
+        "selectInheritedTags": [
+            "tag",
+            "value"
+        ],
+        "severities": 5
+    },
+    "jsonrpc": "2.0",
+    "method": "host.get",
+    "id": 1
+}

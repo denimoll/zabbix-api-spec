@@ -1,0 +1,35 @@
+{
+    "params": {
+        "output": "extend",
+        "selectAcknowledges": "extend",
+        "selectSuppressionData": "extend",
+        "selectTags": "extend",
+        "objectids": "22395",
+        "sortfield": [
+            "clock",
+            "eventid"
+        ],
+        "sortorder": "DESC",
+        "time_from": "1350432000",
+        "time_till": "1350518400",
+        "action": 2,
+        "action_userids": [
+            10
+        ],
+        "countOutput": true,
+        "groupBy": "objectid",
+        "source": 0,
+        "object": 0,
+        "value": 1,
+        "trigger_severities": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "limit": 5
+    },
+    "jsonrpc": "2.0",
+    "method": "event.get",
+    "id": 1
+}

@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "token.delete",
+    "params": [
+        "188",
+        "192"
+    ],
+    "id": 1
+}

@@ -1,0 +1,17 @@
+{
+    "jsonrpc": "2.0",
+    "method": "trigger.get",
+    "params": {
+        "output": [
+            "triggerid",
+            "description",
+            "priority"
+        ],
+        "filter": {
+            "value": 1
+        },
+        "sortfield": "priority",
+        "sortorder": "DESC"
+    },
+    "id": 1
+}

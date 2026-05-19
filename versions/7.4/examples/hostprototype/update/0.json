@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "hostprototype.update",
+    "params": {
+        "hostid": "10092",
+        "status": 1
+    },
+    "id": 1
+}

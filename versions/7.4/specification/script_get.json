@@ -1,0 +1,8 @@
+{
+    "jsonrpc": "2.0",
+    "method": "script.get",
+    "params": {
+        "output": "extend"
+    },
+    "id": 1
+}

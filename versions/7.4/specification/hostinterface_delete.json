@@ -1,0 +1,8 @@
+{
+    "jsonrpc": "2.0",
+    "method": "hostinterface.delete",
+    "params": [
+        "30062"
+    ],
+    "id": 1
+}

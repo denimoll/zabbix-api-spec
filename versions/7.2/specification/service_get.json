@@ -1,0 +1,13 @@
+{
+    "jsonrpc": "2.0",
+    "method": "service.get",
+    "params": {
+        "output": "extend",
+        "selectChildren": "extend",
+        "selectParents": [
+            "serviceid",
+            "name"
+        ]
+    },
+    "id": 1
+}

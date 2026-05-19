@@ -1,0 +1,14 @@
+{
+    "jsonrpc": "2.0",
+    "method": "template.update",
+    "params": {
+        "templateid": "10086",
+        "macros": [
+            {
+                "macro": "{$MY_MACRO}",
+                "value": "new_value"
+            }
+        ]
+    },
+    "id": 1
+}

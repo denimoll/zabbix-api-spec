@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "regexp.delete",
+    "params": [
+        "16",
+        "17"
+    ],
+    "id": 1
+}

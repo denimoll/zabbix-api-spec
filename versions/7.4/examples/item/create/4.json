@@ -1,0 +1,38 @@
+{
+    "jsonrpc": "2.0",
+    "method": "item.create",
+    "params": {
+        "url":"http://127.0.0.1/http.php",
+        "query_fields": [
+            {
+                "name": "mode",
+                "value": "json"
+            },
+            {
+                "name": "min",
+                "value": "10"
+            },
+            {
+                "name": "max",
+                "value": "100"
+            }
+        ],
+        "interfaceid": "1",
+        "type": 19,
+        "hostid": "10254",
+        "delay": "5s",
+        "key_": "json",
+        "name": "HTTP agent example JSON",
+        "value_type": 0,
+        "output_format": 1,
+        "preprocessing": [
+            {
+                "type": 12,
+                "params": "$.random",
+                "error_handler": 0,
+                "error_handler_params": ""
+            }
+        ]
+    },
+    "id": 1
+}

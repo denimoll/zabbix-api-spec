@@ -1,0 +1,11 @@
+{
+    "params": {
+        "userid": "1",
+        "name": "John",
+        "surname": "Doe",
+        "roleid": "6"
+    },
+    "jsonrpc": "2.0",
+    "method": "user.update",
+    "id": 1
+}

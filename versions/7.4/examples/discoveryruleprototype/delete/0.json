@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "discoveryruleprototype.delete",
+    "params": [
+        "47252",
+        "47253"
+    ],
+    "id": 1
+}

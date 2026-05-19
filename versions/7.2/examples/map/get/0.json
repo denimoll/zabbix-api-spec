@@ -1,0 +1,15 @@
+{
+    "jsonrpc": "2.0",
+    "method": "map.get",
+    "params": {
+        "output": "extend",
+        "selectSelements": "extend",
+        "selectLinks": "extend",
+        "selectUsers": "extend",
+        "selectUserGroups": "extend",
+        "selectShapes": "extend",
+        "selectLines": "extend",
+        "sysmapids": "3"
+    },
+    "id": 1
+}
